@@ -1,0 +1,1067 @@
+province;commoudept;arrondissement;siege;centrevote
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege;ECOLE CONVENTIONEE DES CHARBONNAGES
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege;ECOLE PUBLIQUE ALIBADENG
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege; ECOLE PUBLIQUE AMBOWE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege; ECOLE PUBLIQUE CHARBONNAGES
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege;ECOLE PUBLIQUE OKALA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege;ECOLE PUBLIQUE OKALA B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege;LYCEE INDJENDJE GONDJOUT
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;1 siege;COMPLEXE SCOLAIRE IRIS D’ONDOGO 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;CES ANGE MBA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;CES PRIVE DE LOUIS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;COLLEGE NOTRE DAME DE QUABEN
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE CONVENTIONNÉE GROS BOUQUET 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE CONVENTIONNÉE GROS BOUQUET 2
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE BAS GUE-GUE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE ENS A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE ENS B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUB.ENSET A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE ENSET B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE BA OUMAR
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE.DE LOUIS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;ECOLE PUBLIQUE GROS BOUQUET 4
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;LYCEE LEON MBA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;1er  arrondissement;2 siege;LYCEE NELSON MANDELA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;COLLEGE PRIVE SAINTE LYDIE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;COLLEGE PRIVE SAINT NICOLAS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE MARTINE OULABOU A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE MARTINE OULABOU B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;ECOLE CATHOLIQUE MONTFORT
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;ECOLE SAINT JOSEPH 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;ECOLE SAINTE MARIE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;1 siege;CENTRE PRESCOLAIRE DOMI
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ECOLE PUBLIQUE CITE MEBIAME
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ECOLE NATIONALE SUPERIEURE SECRETARIAT (IUSSO)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ECOLE PUBLIQUE SOTEGA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ECOLE ST MICHEL A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ECOLE ST MICHEL B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ENESP (ANCIEN COLLEGE DES RETRAITES)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;JARDIN DIVIN D’AMOUR
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;2eme arrondissement ;2 siege;ECOLE PUBLIQUE NZENG AYONG DU LAC
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;BASE SOTRAVIL (SOGATRA)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;C.SOCIAL HYACINTHE ANTINI
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;CES AKEBE A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;CASE D’ECOUTE CARR. HASSAN
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;CENTRE PRESCOLAIRE NOMBAKELE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;CES AKEBE B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE PUBLIQUE MONT BOUET II
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE CATHOLIQUE SAINTE ANNE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE MONT BOUET I (SORBONNE)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE PILOTE DU CENTRE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE PUBLIQUE LA PEYRIE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE PUBLIQUE AKEBE I
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE URBAINE DU CENTRE A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;1 siege;ECOLE URBAINE DU CENTRE B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;COLLEGE EVOLUTION
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE PUBLIQUE AKEBE BELLE VUE 1 A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE P. AKEBE BELLE VUE 1 B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE PUBLIQUE VENEZ VOIR
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;LYCEE MABIGNATH (ANCIENNE ECOLE PUBLIQUE AKEBE VILLE OPT)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE BELLE VUE II
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE PUBLIQUE DE KINGUELE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE PUBLIQUE PK8-2
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;ECOLE PUBLIQUE PK8-1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;3eme arrondissement;2 siege;JARDIN D’ENFANT CNSS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;1 siege;CENTRE SOCIAL AKEBE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;1 siege;CES EVANGELIQUE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;1 siege;ECOLE PUBLIQUE AKEBE II B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;1 siege;ECOLE PUBLIQUE AKEBE II A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;1 siege;ECOLE PUBLIQUE AWENDJE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;COURS AMBOUROUET
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE NOTRE DAME DES VICTOIRES A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE NOTRE DAME DES VICTOIRES B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE PUBLIQUE PLAINE NIGER A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE BATAVEA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE CONSUL.CHAMBRE COMMERCE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE PUBLIQUE BATAVEA 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;C.E.S BATAVEA (ANCIENNE ECOLE PUBLIQUE BATAVEA 2)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE PUBLIQUE PLAINE NIGER B
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;4eme arrondissement;2 siege;ECOLE PUBLIQUE DE GLASS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;CES MINDOUMBE II
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;ECOLE PUBLIQUE MINDOUMBE I
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;ECOLE CITE DAMAS II
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;ECOLE DAMAS A
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;ECOLE PUBLIQUE BISSEGUE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;ECOLE PUBLIQUE CITE DAMAS 1 7- ECOLE PUBLIQUE DAMAS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;ECOLE PUBLIQUE OZANGUE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;I.A.I.
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;MELEN PK11-1 (ECOLE PROTESTANTE)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;MELEN PK11- 2 (ENA)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;1 siege;MELEN PK11-3 (NZENG-MIANG)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;2 siege;ECOLE PUBLIQUE D’OZOUNGUE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;2 siege;INST.NAT. JEUNESSE & SPORTS
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;2 siege;CENTRE PRESCOLAIRE LALALA 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;2 siege;ECOLE PUBLIQUE LALALA 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;2 siege;ECOLE SAINTE THERESE LALALA
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;5eme arrondissement;2 siege;LYCEE EMANE EYEGHE (LYCEE D’OLOUMI)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;LYCEE MONTALIER
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;ECOLE PUBLIQUE BAMBOUCHINE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;LYCEE DE L’AMITIE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;LYCEE DJOUE DABANY
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;LYCEE OBIANG ETOUGHE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;OVENG
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;AKOUGBE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;VILLAGE ONDOGHE
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;COMPLEXE SCO. LA GRACE DIVINE DES OLIVIERS (DERRIERE HOP. MIL)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;COMPLEXE SCOLAIRE LES OLIVIERS VERDOYANTS (PK12)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;1 siege;ECOLE SEMENCE ROYALE (ONDOGHE 2)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE DRAGAGES
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE NZENG AYONG 1
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE NZENG AYONG 2
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE NZENG AYONG 3
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE NZENG AYONG (NOUV. CITE)
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE NZENG AYONG 4
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE SIBANG 2
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;ECOLE PUBLIQUE SIBANG III
+PROVINCE DE L’ESTUAIRE;Commune de Libreville;6eme arrondissement;2 siege;LYCEE JEAN HILAIRE OBAME
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;BOLOKOBOUET
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;CAP SANTA CLARA
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;ECOLE PUBLIQUE CAP ESTERIAS
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;ECOLE NATIONALE DES EAUX FORETS
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;ILE MBANIE
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;MALIBE I
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;MALIBE II
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;PREMIER CAMPEMENT
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;1er  arrondissement;1 siege;KOUBOU KOUBOU
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;2eme arrondissement ;1 siege;ECOLE PUBLIQUE ANGONDJE
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;2eme arrondissement ;1 siege;ANGONDJE NTOM
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;2eme arrondissement ;1 siege;CES AVORMBAM
+PROVINCE DE L’ESTUAIRE;Commune d'Akanda;2eme arrondissement ;1 siege;CES ANGONDJE (Louis BIGMAN)
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;ECOLE PUBLIQUE AGOUNGOU
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;ECOLE PUBLIQUE AKOURNAM 1
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;ECOLE PUBLIQUE ALENAKIRI 1
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;ECOLE PUBLIQUE SNI 1
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;ECOLE PUBLIQUE SNI 2
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;ECOLE PUBLIQUE SETRAG (TRANSGABONAIS)
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;LYCEE SCIENTIFIQUE
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;LYCEE TECHNIQUE
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;1er  arrondissement;1 siege;UNIVERSITE DES SCIENCES DE LA SANTE
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;2eme arrondissement ;1 siege;ECOLE PUBLIQUE AKOURNAM 2
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;2eme arrondissement ;1 siege;IGOUMIE SECTEUR 1
+PROVINCE DE L’ESTUAIRE;Commune d'Owendo;2eme arrondissement ;1 siege;COMPLEXE SCOLAIRE LES CRACKS (AKOURNAM)
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;AKONEKI (SCIERIE)
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;CIAM ADMINISTRATION
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE FOYER CIMENTERIE
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE CATHOLIQUE ST THOMAS
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE NTOUM 1
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE NTOUM 6 (DAME OYEM)
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE MATOTO (CIAM EXTENSION)
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;LYCEE DE NTOUM (ASSORA)
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;MEKONANAM
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;MEYANG CHEFFERIE
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE MFOULAYONG
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE NKAN
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;1er  arrondissement;1 siege;ECOLE PUBLIQUE OKOLOSSI
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;2eme arrondissement ;1 siege;ECOLE PUB. AYEME PLAINE
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;2eme arrondissement ;1 siege;ECOLE CATHOLIQUE ESSASSA NZOGMINTANG
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;2eme arrondissement ;1 siege;ECOLE CATHOLIQUE NKOK 1 PK27
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;2eme arrondissement ;1 siege;SHM NKOK 1 PK27
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;2eme arrondissement ;1 siege;ECOLE PROT. NKOLTANG 1
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;2eme arrondissement ;1 siege;ECOLE PROT. NKOLTANG 2
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;3eme arrondissement;1 siege;ECOLE PUBLIQUE DE BIKELE
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;3eme arrondissement;1 siege;BIZANGO BIBERE
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;3eme arrondissement;1 siege;ECOLE PUBLIQUE .J.L.NZE BIYOGHO
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;3eme arrondissement;1 siege;LYCEE MARIE THERESE ESSOLA (PK 13)
+PROVINCE DE L’ESTUAIRE;Commune de NTOUM;3eme arrondissement;1 siege;PROJET GOAL
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PUBLIQUE AKOK
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;AKOK MISSION CHINOISE
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;DISPENSAIRE ATANGA
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PUBLIQUE AYEME MARITIME
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PUBLIQUE ELONG EKO
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PRIVEE CATHOLIQUE DONGUILA
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PRIVEE CATHOLIQUE MEBBA 1 ET 2
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PUBLIQUE NZOGBOUR
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;ECOLE PUBLIQUE NZAMALIGUE
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;NZOG BOUR
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Mondah;;1 siege;NZOULAMEYONG
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;AYENE FALE (NGOUANDJI)
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;ATONDA SIMBA
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;BISSOBINAM
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;CHINCHOUA
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;METECK MAVI
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;MFOULENZEM CENTRE
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;MVAM
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;NDZOMOE
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;NIONYE
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;OBELO
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;OYANE
+PROVINCE DE L’ESTUAIRE;Departement du Komo-Ocean;;1 siege;POINTE DENIS
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;AKONAM MVINVI
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ASSENG FORET
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ATSINGNANG
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;BELE AKANABOUR
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE ANDEM 1 ET 2
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE ASSENG PK60 ET PK 68
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE KANGO CENTRE 1
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE KOUGOULEU
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE MBEL
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE M’FANG
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE CATHOLIQUE EVINAYONG
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE CATHOLIQUE PRIVEE KANGO
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PROT. D’ANGOME
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE KANGO II
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE KAFELE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;ECOLE PUBLIQUE NIANAME
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;NDOUANIANG I
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;NDOUANIANG II
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;NDZONG I
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;1 siege;SOGACEL FORET (ABANGA VILLAGE)
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;CHANTIER I-F-K
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE AYEM BOKOUE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE OYAN 4
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE AGRICOLE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE HEVEGAB EKOUK
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE FOUR PLACE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE WOUBELE 1 ET 2
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ECOLE PUBLIQUE EKOUK CHANTIER
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;EKOUK VILLAGE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;EKOUK OBENDJI
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;HEVEGAB CHANTIER
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;LASSA (CHEF DE VILLAGE)
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;MAKOULA
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;MOUPOUMA I
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;MOUPOUMA II
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;NSILE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;NZOGO SOCOBA
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;N’ZOUA METONG L.F.K
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;OYAN 1-2-3 (CHEF REGROUP)
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;OYAN GARE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;REMBOUE 1&2
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;ROUNGOULA
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;2 siege;WOUBELE 3 CHEF DE VILLAGE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;ALEN COMO
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;AYEME AWOULA CHANTIER
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;CHANTIER SEEF (NZAMALIGUE)
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;ECOLE PUBLIQUE AYEM AWOULA
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;ECOLE PRIVEE PROT. MVENG AYOM
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;ECOLE PUBLIQUE ANDOCK FOULA
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;ECOLE PUBLIQUE MELA
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;ENGONG KOUAME
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;MBEL ALENE
+PROVINCE DE L’ESTUAIRE;Departement du Komo;;3siege;NZOCK BIZEGNE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;1 siege;CENTRE VILLE C.E.S PASCAL NZE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;1 siege;ECOLE PUBLIC.DE MANGALA
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;1 siege;ECOLE PUBLIQUE DU CENTRE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;1 siege;MBOGOFALA VOMBIE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;1 siege;NIANAM BISSOBINAM
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;ABOUNE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;BOUTIKA
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;DINDOMBOU
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;EKORODO
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;MESSAYE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;ABENELANG
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;BISSOBINAM2
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;IBOUNDJI
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;IKAZZA
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;LYBE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;MBENE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;MEKAK EMONE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;MILEMBIE
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;NO AYONG
+PROVINCE DE L’ESTUAIRE;Departement de la Noya;;2 siege;NOUMBO
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;CENTRE SOCIAL BAPILI
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;CORNICHE (AV SAVORGNAN)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;JARDIN ENFANT POUBARA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;ECOLE PUBLIQUE NGOUNGOULOU (LEKEI)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;LYCEE MARCEL AMOGHO
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;NGOBOUNDA (ST HILAIRE)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;NGOUNGOULOU (MAISON DE FEMME)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;1er  arrondissement;1 siege;YOKO (ST HILAIRE)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE DZAMITI (ANGOUMBOU)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;AYASSI
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;DIALOGUE
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;IAES DJAKA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;EPIMBI
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;MONTAGNE SAINTE
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE DZAMITI (MVOUNA)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE OMBELE (OMBELE)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE OMBELE (ONDIMBA)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE OMBELE (ONGALI 1)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ECOLE PUBLIQUE OMBELE (ONGALI II)
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;ONGOUEGNE
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;2eme arrondissement ;1 siege;SABLE II
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;BAKOU
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;CARRIERE
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;ECOLE CATHOLIQUE AKOU
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;ECOLE CATHOLIQUE AKOU II
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;KESSALA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;LEKONI
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;MANGOUNGOU
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;MATEBELE I
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;MATEBELE II
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;MENAYE
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;MIMBOUMBA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;ONDOUAMA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;3eme arrondissement;1 siege;PIKAS
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;DJOUORI
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;MABA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;MABOUKOU 1-2
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;MAKANA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;MBAYA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;MINGARA
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;YENE I
+PROVINCE DU HAUT-OGOOUE;Commune de Franceville;4eme arrondissement;1 siege;YENE II
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;BIBASSA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;BINIOMI
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;EBALA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;EYOUGA 2 VILLAGE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;LENGORI VILLAGE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;LENGORI EVOUGA II
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;MBOUMA-OYALI
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;MENAYE-EPILA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;NDJOKAYE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;ONKOUA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;VILLE BANGOUE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;YOULOU
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;ANDJOGO
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;LEKOUSSAGA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;MIKASSA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;MOKABA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;MOTOBO I
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;MOTOBO II
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;OBORILEKOUSSA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;OKOLOVILLE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;OLOUNGA-OMVOURI
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;SOGADEL SUD
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;1 siege;VENEZ VOIR
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;BANGUENE BANGUIA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;BASE AERIENNE 02
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;BITONO
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;DZAKI VILLE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;LEPAKA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;MAPOUBA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;MOUPIA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;MVENGUE
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;NGANDA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;POUBARA
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;SUCAF 1
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;SUCAF 2
+PROVINCE DU HAUT-OGOOUE;Departement de la Passa;;2 siege;SUCAF 3
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;CES HENRI BASSET
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;ECOLE PROT CENTRE COMMERCIAL
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;CENTREVILLE
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;CITE ADMINITRATIVE (HOTEL DE VILLE) 5- ECOLE CATHOLIQUE CITE AMBIE
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;CITE CADRE (MESS COMUF)
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;ECOLE RENOVATION A
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;ECOLE RENOVATION B
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;MASSANGO 1
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;MASSANGO 2
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;MBOUNGOU BADOUMA
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;MOUNANA VILLAGE
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;NDOUBI
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;NGANGOLO
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;NGUIASSONO
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;OMOI
+PROVINCE DU HAUT-OGOOUE;Departement de la Lébombi-Léyou;;1 siege;AGAPROV
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;ALLIANCE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;BELLE-VUE 1 ET 2
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;CITE OCTRA
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;DOUANES
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;DOUMAI
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;KONDA
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;LEMAGNA (MAGNIMA)
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;LYCEE TECHNIQUE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MAGNIMA
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MAYELA
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MIOSSO TELEPHERIQUE 1
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MOANDA PLAINE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MONTAGNE SAINTE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MOUKAGNISSI
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;MONT MOANDA
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;1er  arrondissement;1 siege;NDJANGATEBE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;QUARTIER COMMERCIAL
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;JARDIN ENFANTS COMILOG
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;LEKOLO
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;LEYIMA
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;ECOLE CATHOLIQUE ONKOULA (A et B)
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;MONDZEYE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;JARDIN ENFANT LEKOLO 1-2
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;MANDJAYE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;MOYABI VILLAGE
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;DJOUTOU (MOYABI)
+PROVINCE DU HAUT-OGOOUE;Commune de Moanda;2eme arrondissement ;1 siege;CHANTIER ROUGIER
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;BAKAMBA
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;BAKOUMBA VILLAGE 1
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;BAKOUMBA VILLAGE 2
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;ECOLE PUBLIQUE MOUKONDJOKA
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;ECOLE CATHOLIQUE 1
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;ECOLE CATHOLIQUE 2
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;ECOLE PUBLIQUE CENTRALE 1
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;ECOLE PUBLIQUE CENTRALE 2
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;LEKAMBA
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;LEKOKO VILLAGE
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;LEMANASSA
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;MAMIDI
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;MIPONDI I
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;NGOBI
+PROVINCE DU HAUT-OGOOUE;Departement de Lekoko;;1 siege;POYA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;1 siege;OBEGUE
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;1 siege;ENTSAGA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;1 siege;ECOLE PUBLIQUE KAKOUMBOU
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;1 siege;ECOLE PUBLIQUE -B NDOUA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;2 siege;ECOLE CATHOLIQUE OYABI
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;2 siege;BOUNOU OBOUO
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;2 siege;KASSIELE 1 ET 2
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;2 siege;OBIA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;2 siege;OSS’KAMA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;3siege;OKOUYA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;3siege;OTOU
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;3siege;ONGUIA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékoni-Lékori;;3siege;OTALA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;ABOUYI
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;ADMINISTRATIF
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;AKOU
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;CHIC
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;DJOUANI
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;EKOUYI MBOUMA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;KABALA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;KEBIRI
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;KESSALA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;LEWOU
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;MBAMA LEKONI VILLAGE
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;OKORIVILLE
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;OSSELE
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;SAMBA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;1 siege;SAYE
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;2 siege;ABILA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;2 siege;EDJOUANGOULOU
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;2 siege;ODJOUMA
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;2 siege;OSSOUELE
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;2 siege;YIA A
+PROVINCE DU HAUT-OGOOUE;Departement des Plateaux;;2 siege;YIA B
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;ATSIA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;ECOLE OBELI OSSINGA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;ENGOUMOU
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;MANGOU
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;MISSION CATHOLIQUE
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;MPOUNGOU
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;OLONGO
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;1 siege;SEBE
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;MAKATAMANGOYE 1
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;MAKATAMANGOYE 2
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;MINA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;NDJOUNOU
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;NGOMA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;ODJALA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;ONDILI
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;TEBE
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;ECOLE PUBLIQUE OPONGOU ABOLO I
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;ECOLE PUBLIQUE LEKORI
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;ALANGA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;2 siege;LEBALADOUMA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;AMBINDA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;AYANABO
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;BOUALA-BOUMA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;LELAMA C-E-B
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;MBABIRI
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;MBOUNGA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;MOYOL
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;OKILA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;OLOUNGA II
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;ONDJEYE
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;ONGUILA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;OSSELE OTALA
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;OSSINGA II
+PROVINCE DU HAUT-OGOOUE;Departement de Sébé-Bricolo;;3siege;OTOUNDOU
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;BOUBOU
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;CES BONGOVILLE
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;ECOLE PUBLIQUE
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;EKALA 1
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;KABAGA BAYI
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;KELE
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;KEWAGA
+PROVINCE DU HAUT-OGOOUE;Departement de Djouori-Agnili;;1 siege;SOUBA 1
+PROVINCE DU HAUT-OGOOUE;Departement de Djoué;;1 siege;ALLIGA
+PROVINCE DU HAUT-OGOOUE;Departement de Djoué;;1 siege;AYOGO
+PROVINCE DU HAUT-OGOOUE;Departement de Djoué;;1 siege;ECOLE PUBLIQUE D’ONGA
+PROVINCE DU HAUT-OGOOUE;Departement de Djoué;;1 siege;MBOUYI
+PROVINCE DU HAUT-OGOOUE;Departement de Djoué;;1 siege;OLOUA
+PROVINCE DU HAUT-OGOOUE;Departement de Djoué;;1 siege;OSSIELE
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;ALELE II
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;ANKOUSSOU
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;ASSIAMI
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;EGOUMOUNA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;EKOUMA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;EKOUMA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;EYOUGA
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;NDJIEGUE
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;OKANGOVILLE
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;OKOUMBI
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;OMOYE
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;ONDILI
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;OTOGHO
+PROVINCE DU HAUT-OGOOUE;Departement de Lékabi-Lewolo;;1 siege;OYOU
+PROVINCE DU HAUT-OGOOUE;Departement de l'Ogooué-Létili;;1 siege;DOUMAYE
+PROVINCE DU HAUT-OGOOUE;Departement de l'Ogooué-Létili;;1 siege;ECOLE PUBLIQUE
+PROVINCE DU HAUT-OGOOUE;Departement de l'Ogooué-Létili;;1 siege;LENDENDOUNGOU
+PROVINCE DU HAUT-OGOOUE;Departement de l'Ogooué-Létili;;1 siege;MBOUA
+PROVINCE DU HAUT-OGOOUE;Departement de l'Ogooué-Létili;;1 siege;MOUGOUANGO
+PROVINCE DU HAUT-OGOOUE;Departement de l'Ogooué-Létili;;1 siege;ECOLE SIEAB
+PROVINCE DU HAUT-OGOOUE;Departement de la Bayi-Brilolo;;1 siege;ABOUMI EDOUGA
+PROVINCE DU HAUT-OGOOUE;Departement de la Bayi-Brilolo;;1 siege;NGAMI LEKIMA
+PROVINCE DU HAUT-OGOOUE;Departement de la Bayi-Brilolo;;1 siege;OBOLI
+PROVINCE DU HAUT-OGOOUE;Departement de la Bayi-Brilolo;;1 siege;ONTOGHO
+PROVINCE DU HAUT-OGOOUE;Departement de la Bayi-Brilolo;;1 siege;YOUMA 2
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ABONGO
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ADIWA SAINT FRANCOIS
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE AVENIR B ATONGOWANGA
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE AVENIR DAKAR
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE PUBLIQUE LALALA (CENTRE VILLE)
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE PUBLIQUE ADOUMA
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE GRAND VILLAGE 1
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE GRAND VILLAGE 2
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;ECOLE MOUSSAMOUKOUGOU
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;FOYER PROTESTANT
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;LYCEE CHARLES MEFANE
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;POINT V
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;1er  arrondissement;1 siege;VILLAGE LUMIERE
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;ECOLE CATHOLIQUE ISAAC ANIOUZOUMA
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;ECOLE ISAAC A
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;ECOLE JACQUELINE RAWIRI
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;ECOLE ATSIE
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;ECOLE PUBLIQUE MAGNANG
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;ECOLE ISAAC B
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;MALEBE
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;MBILANDZAMBI
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;PETIT PARIS
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;PETIT PARIS 2 (AVIATION)
+PROVINCE DU MOYEN-OGOOUE;Commune de Lambaréné;2eme arrondissement ;1 siege;QUARTIER CARRIERE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ECOLE PUBLIQUE ADANHE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ADOLE MANDJI
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;DAKAR GOME
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ECOLE PUBLIQUE BENGUIE 1-2-3
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ECOLE PUBLIQUE BENGUIE 4
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ECOLE PUBLIQUE PARIS BIFOUN 1 ET 2
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ELONG EKO (AREVOMA II)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;KOUNGOULE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;LOGUET
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;MEDANG NKOGHE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;MITONET (MIMONGO)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;NKOGHE MBOUN
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;ECOLE CATH NZOGHE BANG
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;VILLAGE GRAVIER
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;WELIGA I
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;WELIGA II
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;1 siege;YANEBOUR
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;AKOUM LAM
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;ALLONHA 1
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;ALLONHA 3
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;CHANTIER CHARBONNIER
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;ISSANGUI
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;MWAM-NZA-MANE I
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NDAMA (LEBOUSSOU)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NENGUENTOGOLO
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;N’LONG
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NOMBEDOUMA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NTAMBE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NTCHOUA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NZAMAKESSILE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NZAMATA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;NZOUGHE (NKANGUE II)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;ODIMBA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;OGUEWA NZAMATA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;POINTE NOIRE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;RENDOUGOU
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;SAINT LOUIS
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;2 siege;VILLAGE NGUIABETA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;ASCHOUKA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;IGUENDJA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;MANOGONI (AMBYA)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;NGOMO 1 ET 2
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;NTYATANGA I
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;OMPOMONA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;3siege;POINTE ELYSE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;AGROGABON MAKOUKE A
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;AGROGABON MAKOUKE B
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;AGROGABON MAKOUKE C (HUILERIE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;AGROGABON NGOUNIE (NZAMATA)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;AMANENGONE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;BELLE VUE I
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;BINDO CHANTIER
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;BINDO VILLAGE I
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;BORDEAUX
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;GARAGE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;JUNCKVILLE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;LESSOBELLA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;LEZINDA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;MASSASSIKE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;MBECK MENU
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;MEBANG METORA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;MEDZIME VINE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;NDOUMANTANG
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;NGOSSO
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;PLANTATION FOULA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;4siege;VILLAGE MAKOUKE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;AGROGABON ZILE (PLANTA ZILE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE PUBLIQUE MASSIKA I-II
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE PUBLIQUE TCHAD I-II
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE PUBLIQUE NOMBAKELE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE PUBLIQUE TSOUKA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE PRIVEE CATHOLIQUE ISSALA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE PRIVEE PROTESTANTE LOBI
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ECOLE KERI
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;IKEMBELE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;IMENOU I
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;IMENOU II
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;ISSINGA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;KOMI
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;MANYENGUE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;MIMONGO
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;NGOUDOUFALA PK14
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;PAGA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Ogooué et des Lacs;;5siege;SAINT MARTIN
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;ANDOCK (MBILAVION)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;BINGOMA (CENTRE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;BINGOMA (NORD)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;BINGOMA SUD (BELLE VUE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;CENTRE VILLE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;KM I (SORBONNE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;MISSANGA NAZARETH
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;MISSANGA SAINT JEAN
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;1 siege;NYANKOK MBOUNE I-II
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;BIFOUN III (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;ECOLE PUBLIQUE ABANGA II
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;ECOLE PUBLIQUE BIFOUN CENTRE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;ECOLE PUBLIQUE EBEL RIVE DROITE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;ECOLE PUBLIQUE EKORODO
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;ECOLE P. PROTESTANTE EBEL RIVE GAUCHE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;MENGUEGNE (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;TOUM RIVE DROITE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;WELIGA 1 (CHEF REGROUP)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;WELIGA 2 (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;2 siege;YOKO QUAND MEME (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ALEMBE (CHEF DE VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;BSO LANO
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE PUBLIQUE JUNCKVILLE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE PUBLIQUE OTOUMBI
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE PUBLIQUE TRANSGABONAIS
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE P. CATHOLIQUE MEDOUMANE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE PRIVEE CATHOLIQUE MINKOK MESSENG
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE BSO NDJOLE (MISSANGA)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ENGOUGOUME (CHEF REGROUP)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ESSONG AUBAMAKALE
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;MEVANG METOUANG
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;NZAMATA (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;OTOUMA BSG
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;BIBOULMAN
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE PUBLIQUE MBILANTEN
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;ECOLE PRIVEE PROT. SAIO
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;EYAMEYONG MAGUIELA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;FERNAN VAZ (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;MAGUIELA
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;MALEBA (CHEF VILLAGE)
+PROVINCE DU MOYEN-OGOOUE;Departement de l'Abanga-Bigné;;3siege;NGOUABILAGHA (CHEF VILLAGE)
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;ECOLE COMMUNALE –A
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;ECOLE COMMUNALE –B
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;ECOLE COMMUNALE –E
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;ECOLE PRIVEE PROTESTANTE
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;ECOLE PUBLIQUE –D
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;ECOLE SANTE (ENSAS)
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;LYCEE PROFESSIONNEL
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;LYCEE EXCELLENCE
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;NOTRE DAME
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;NOUVEAU CES
+PROVINCE DE LA NGOUNIE;Commune de Mouila;1er  arrondissement;1 siege;SAINT GABRIEL
+PROVINCE DE LA NGOUNIE;Commune de Mouila;2eme arrondissement ;1 siege;CENTRE DE FORMATION –P
+PROVINCE DE LA NGOUNIE;Commune de Mouila;2eme arrondissement ;1 siege;ECOLE PUBLIQUE –C
+PROVINCE DE LA NGOUNIE;Commune de Mouila;2eme arrondissement ;1 siege;ECOLE PUBLIQUE -F
+PROVINCE DE LA NGOUNIE;Commune de Mouila;2eme arrondissement ;1 siege;IMMEUBLE CNSS/CNGS
+PROVINCE DE LA NGOUNIE;Commune de Mouila;2eme arrondissement ;1 siege;SAINT KISITO
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;1 siege;BANDI 1 ET 2
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;1 siege;DIKOKA
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;1 siege;IGOUMA 2
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;1 siege;IGOUMA 1
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;1 siege;MOKABO
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;2 siege;MIGABE
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;2 siege;MOUALO
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;2 siege;SAINT MARTIN
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;DOUYA
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;IDOUMI
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;IKOLO
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;KOUMBANOU
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;MAKANDA
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;MOULANDOUFOUALA
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;MOUTASSO
+PROVINCE DE LA NGOUNIE;Departement de la Douya-Onoye;;3siege;NOMBAKELE
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;ECOLE PUBLIQUE DIBOTSA
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;ECOLE PUBLIQUE
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;ECOLE PUBLIQUE MOUSSA
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;GUIMANGA
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;GUISSA CARREFOUR
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;ECOLE PUBLIQUE IDEMBA
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;ECOLE PUBLIQUE ILENDO
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;KOUMBANOU
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;MANDJI DAKAR
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;ECOLE PUBLIQUE MINGOLA
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;MOUKIDI
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;NIEGUIANOU
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;NYANGA
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;NZAMBI
+PROVINCE DE LA NGOUNIE;Departement de Mougalaba;;1 siege;OUKOUMBOU
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE CATHOLIQUE STE FAMILLE (BELLE VILLE)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;BONGAVILLE ET MOUBOUNGOU EPP
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE CENTRE CITE ADMIN
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;DAKAR SONG ET DAKAR BAS FOND
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;DISPENSAIRE MOULANDOUFALA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;DOUBOU
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE MOURIMATSIENGUI
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PROTESTANTE MOUDOUMA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE OYENANO
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE CATHOLIQUE MBOUKOU
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE EKANGA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE MAMIENGUE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PROTEST. REMBOUE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE DE BASSALI
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE DE DAKAR
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE DE NGOUASSA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE GUIDOUMA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE NZEMBA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE WAKA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;GRAND ODAVO PONT
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;KERIDIAMBOU CES
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;KESSI 2
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;KESSI 1
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;MANDILOU 1 ECOLE PUBLIQUE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;MANDILOU 2 (CHEF VILLAGE)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;MOUTAMBA SA NAFOUMOU
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;EC.PUBLIQUE DAKA (NIANGOU –SA-WOME)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;NINGUI
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;PETIT ODAVO CHEFFERIE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;REGROUPEMENT GUIAMBA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;ECOLE PUBLIQUE YOMBI 1
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;1 siege;YOMBI 2 (CHEF DE VILLAGE)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;DIVINDE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;DOUANI
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;ECOLE PUBLIQUE KOUAGNA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;ECOLE NIMBIE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;ECOLE PUBLI. SINDARA 1
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;ECOLE PUBLI. SINDARA 2
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;EGONO
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;EGOUBA (OUMBA)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;EVOUTA
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;GUEDIBA DIVINDE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;IKOBEY CENTRE (KEBE)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;ECOLE CATHOLIQUE MATADI 7
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;MIMONGO
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;MOLANDO
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;NDOUGOU CHEFFERIE
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;NIOYE 1
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;NIOYE II (DISPENSAIRE)
+PROVINCE DE LA NGOUNIE;Departement de tsamba-Magotsi;;2 siege;SINDARA SONG
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;ANDAMBA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;BOLAPESSA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;DIENGA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;ECOLE PUBLIQUE MBIGOU
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;ECOLE PROT HAUT MBIGOU
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;INOUNOUSSIABOLA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;ITSIKA KOUMOU MALA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;KAMBAMONGO
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;KOTTO
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;LEBAGNI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;LEDOUMA TP MBIGOU
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;LENGOYE
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MALOU LOULOU
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MAREMBO
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MBIMBA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MIKOUMA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MIYANGA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MOUDOUMA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;MOUKOUALA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;CES MOUNGUEMBE
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;NDENGA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;1 siege;NGOUNGUI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;2 siege;IMENO MBILA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;2 siege;KANDA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;2 siege;MANDJI WANO
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;2 siege;REGROUPEMENT IMENO-NZINGA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;2 siege;REGROUPEMENT ISSALA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;2 siege;REGROUPEMENT MAYANI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;CHANTIER BOUTSALA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;DIBWANGUI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;KAMAMONGO – LEPOYE
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;KOYA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;LEKINDOU
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;LOBA
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;ECOLE PUBLIQUE MACKONGONIO
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;MANDJI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;MOUBOU LELOLO
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;NDOUBI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;ECOLE PRIVEE CATHOLIQUE NGOMO-BOUL
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;NZENZELE I
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;NZENZELE II
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;POUNDI
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;REBE
+PROVINCE DE LA NGOUNIE;Departement de Boumi-Louétsi;;3siege;SOUANGUI
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;BOULEMBO
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;CES MIMONGO
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;DIBAMBA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;DIBANDI
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;DIBASSA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;DIYANGA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;ECOLE CATHOLIQUE PRIVEE
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;ECOLE PUBLIQUE A 130
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;ECOLE PUBLIQUE B
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;MOUKABOU
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;MOUKANDI
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;MOUNONGO
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;1 siege;POUNGUI
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;BILENGUI
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;EBANDO
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;EGOUMBI BAC
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;EKEMBELE
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;EPAMBOA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;ETAVA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;ETEKE 1 ET 2
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;KANDA PIE
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;MAMBA EVOVA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;MASSIKA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;MASSIMA ET VIEUX MIMONGO
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;MEBE
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;MOSSIGUE
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;MOUBIGOU
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;NOMBO
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;OVALA MOKONA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;SEKA SEKA
+PROVINCE DE LA NGOUNIE;Departement de l'Ogoulou;;2 siege;YENO (RG-RD)
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;BEMBOUDIE
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;BOUNGOUNGA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;CES MANDJI
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;CENTRE VILLE
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;CENTRE VILLE CONSEIL DEPARTEMENTAL
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;DIANGUI
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;DIGWEMA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;ECOLE CATHOLIQUE
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;ECOLE PUBLIQUE DE MANDJI
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;FANGUINDAKA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;KANANA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;LAMBARENE KILI
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;MAISON DU PEUPLE
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;PENY 1
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;PENY 2
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;1 siege;SIEVANOU
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;CFA GUIVANGA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;FOUANOU
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;MASSANA DOUBINANA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;MATSOUKA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;MOUKOUNA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;NZAMBINATSIENGUI
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;OMENGO
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;TSYKA
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;YENO
+PROVINCE DE LA NGOUNIE;Departement de Ndolou;;2 siege;YENO PETIT VILLAGE
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;CONSEIL DEPARTEMENTAL
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;CAMP TP (AVIATION)
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;DILOLO
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;EP PROTEST (MINDANDA ET KAMBA)
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;ECOLE CATH DOLA A
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;ECOLE CATH DOLA B
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;ECOLE CATHOLIQUE DOUSSALA
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;ECOLE PUBLIQUE CENTRE
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;ECOLE SOGADEL
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;FERRA
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;LYCEE D’ETAT A
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;LYCEE D’ETAT B
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MBADI
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MBENGUI
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MOUDJOMBI
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MOUKORO 1 ET 2
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MOUNGALI
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MOUNIGOU
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MOUREMBOU (ISSINGA)
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;MOUSSAMBOU
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;NANGA
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;NDENDE 1-2-3
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;NGOUSSOU MINGAGA TSANGUI
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;NYANGA YOUNGOU
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;VOLET VILLAGEOIS (MALABA)
+PROVINCE DE LA NGOUNIE;Departement de la Dola;;1 siege;ECOLE PUBLIQUE YELO DOLA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;COLLEGE BONGOLO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE CATHOLIQUE DE MABANGA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE CATHOLIQUE DE MBINAMBI
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE CATHOLIQUE LEBAMBA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PROT. NDZOUNDOU
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PUBLIQUE LEBAMBA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PUBLIQUE NZINGUI
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE CATHOLIQUE LETOGO MABENGO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE ALL CHRETIENNE
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE ALLIANCE CHRETIENNE BONGOLO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE ALL. CHRET. MBELENALETEMBE
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PUB. ISSINGA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;FOYER DES JEUNES (CENTRE VILLE)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;FOYER DES JEUNES (MALONGO MAPA)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PROTESTANTE IDEMBE
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE CATHOLIQUE KANDA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE ALL CHRET MAKOMBO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;MAYANGA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PUBLIQUE MEMBA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE CATH MOUKOUNDOU
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;ECOLE PUBLIQUE MOUYAMBA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Wano;;1 siege;POUNGOU IMENO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PRIVEE CATH BAPOSSO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PRIVEE CATH (MOUEKI)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PRIVEE PROT. (BIBAMBA)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PUBLIQUE
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;HANGAR (LONGO)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;LEPEPE
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PUBLIQUE LEVINDA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;LEVINDA 2
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE ALL. CHRET LEYONGA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;MADIBA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;MAMBONGA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;MAYIGHA (HANGAR)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PUBLIQUE MBENGAMAMBA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE CATHOLIQUE MBOMO
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;MIKOVANDZA (CHEF DE VILLAGE)
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE PUBLIQUE MINTSANDZA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;MOMBI
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE CATHOLIQUE MOUKIMBI
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;ECOLE ALL CHRET.MOUKOUAGNA
+PROVINCE DE LA NGOUNIE;Departement de Louétsi-Bibaka;;1 siege;NDZINDZI
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;BAGNARA
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;CES HORIZON BASE BIBORA
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;CENTRE VILLE
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;DIGOUNZI
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;DOUGHENY
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;DOUKOUMOU
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;ECOLE COMMUNALE –C NDABILILA 2
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;ECOLE SAINT JOSEPH
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;IDOUMA
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;KERI NZAMBI
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;LYCEE NAZAIRE BOULINGUI
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;MAKABANA
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;MIGOMA
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;ANCIEN CES HORIZON (MINZANZALA II)
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;NDABILILA 1 (EDUCATION POPULAIRE)
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;NDENGA
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;NOTRE DAME
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;1er  arrondissement;1 siege;ECOLE COMMUNALE G. POLA II
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE E BATSIENGUI 1
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE BATSIENGUI 2
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE PROTESTANTE
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE A INGARA 1
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE H INGARA 2-3
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;LYCEE PROFESSIONNEL
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE F MAVOUNDI
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE B MOUKENGA 2
+PROVINCE DE LA NYANGA;Commune de Tchibanga ;2eme arrondissement ;1 siege;ECOLE COMMUNALE D MOUKENGA 3
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;DIGOUDOU
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;DOUGANDOU
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;DOUSSEGOUSSOU
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;ILALA
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;IMANGUE PLANTEUR
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;LOUANGO
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MILOLO
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MOUGAMBOU DIMBOU
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MOUNANGA
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MOUNIONZI
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MOUTSOUBIRI
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;NZIENZILI
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;TONO
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;VIEUX TONO
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;DIKOUTOU
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MABOURIGA
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MANDILOU 2
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;MOUEDJI
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;NDENGUILILA
+PROVINCE DE LA NYANGA;Département de Mougoutsi ;;1 siege;PENIOUNDOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;BASE PEDAGOGIQUE MIAMBA
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;CENTRE SOCIAL MOABI 10- ECOLE MANDILOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;CES BILENGUI
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE MOUKOKO MBAKA
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE PROTESTANTE. (MOUDIBA PUTU NENI)
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE PUBLIQUE A (MOTOUMBA DJABA)
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE PUBLIQUE B (MISSAFOU)
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE ST KISITO (MOUGOUNA)
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE DOUGASSOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE MANDILOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;ECOLE NGUENDA
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;MABALA
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;MBAMBA
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;MBILA NYAMBI
+PROVINCE DE LA NYANGA;Département de Douigny ;;1 siege;NGANGALA
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;BOUGOULOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;BOUNOUNGA
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;BOUTEMBI
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;DOUSSALA
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;KONDZI
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MALOLO
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MBOUNGOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MIVEMBA MBORTO
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MOKABE
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MOUKOUALOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MOURINDI
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;MOUSSAMOU KOUBOU
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;PAHOU NZAMBI
+PROVINCE DE LA NYANGA;Département de Douigny ;;2 siege;RINA NZALA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;BANA AVIATION
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;DISPENSAIRE TCHIOLE NDEMBET
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;ECOLE PUBLIQUE FOUIKA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;ECOLE KOUANGO
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;LYCEE JEAN BAPTISTE MOANDA (MABOUNDA)
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;PREFECTURE DOUANES
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;1 siege;SAINT ANTOINE
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;BILANGA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;DITOUBA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;DOUIGNY
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;LOUANDO
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;LOUBOMO
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MALOUNGA I
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MALOUNGA II
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MANGALI
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MIRENDA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MIVEMBA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MOUENDA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MOUGAGARA
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MOULONDO
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;PANGA E -
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;VEMO
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;DOUMVOU
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MALEMBET (MAMBI 2)
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;MAMBI I
+PROVINCE DE LA NYANGA;Département de la Basse-Banio ;;2 siege;PILAKOUMBI
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;ECOLE PUBLIQUE CENTRE VILLE
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;GNENZE MOGNO
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;KALA BOUBOTE
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;MALEMBE
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;MINKOUMI
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;PK12 CARREFOUR
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;RINA NZALA
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;TALA ZAMBI
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;TCHIANZY
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;TIYA
+PROVINCE DE LA NYANGA;Département de la Haute-Banio ;;1 siege;YOYO
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;BAMBOMA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;BANDA MAMBA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;BIKOKO
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;CHANTIER
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;DONGO
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;DOUANO I
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;DOUANO II
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;DOUNDZADZA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;DOUVOULI
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;ECOLE PUBLIQUE NGONGO
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;ILOUNGA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;KOTA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;KOUMOU DOUSSALA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;MBANGA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;MOUNGOUDI
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;NYALI
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;NZINGA
+PROVINCE DE LA NYANGA;Département de Doutsila ;;1 siege;PANZA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;BAYADI
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;BIGOUNDOU GUIHA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;BIKAMBA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;CENTRE VILLE
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;DIBOR DIBORA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;DILEMBA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;DOUMANGA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;DOUVOYE
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;GNOUMBETSI
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;IKOLI
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;MAGONGA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;MAHANDI MONUMBUMBA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;MIASSA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;MOULENGUI BINDZA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;PC NYANGA SIAT
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;RINA NZALA
+PROVINCE DE LA NYANGA;Département de Mongo ;;1 siege;VOUNGOU SOGADEL

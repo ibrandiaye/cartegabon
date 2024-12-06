@@ -139,4 +139,11 @@ class ArrondissementController extends Controller
 
     } else { abort(500); }
 }
+
+public function getByCommouDepartement($commoudepartement)
+{
+    $arrondissements = $this->arrondissementRepository->getByCommouDepartement($commoudepartement);
+
+    return response()->json($arrondissements);
+}
 }

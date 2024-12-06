@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Imports\CentrevoteImport;
 use App\Models\Centrevote;
 use App\Repositories\ArrondissementRepository;
 use App\Repositories\CentrevoteRepository;
@@ -9,6 +10,7 @@ use App\Repositories\CommoudeptRepository;
 use App\Repositories\ProvinceRepository;
 use App\Repositories\SiegeRepository;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 use Spatie\SimpleExcel\SimpleExcelReader;
 
 class CentrevoteController extends Controller
@@ -124,9 +126,15 @@ class CentrevoteController extends Controller
     }
     public function importExcel(Request $request)
     {
-        $this->validate($request, [
+        Excel::import(new CentrevoteImport,$request['file']);
+        //  dd($data);
+         return redirect()->back()->with('success', 'Données importées avec succès.');
+    }
+    public function importExcels(Request $request)
+    {
+       /* $this->validate($request, [
             'file' => 'bail|required|file|mimes:xlsx'
-        ]);
+        ]);*/
 
         // 2. On déplace le fichier uploadé vers le dossier "public" pour le lire
         $fichier = $request->file->move(public_path(), $request->file->hashName());
@@ -144,21 +152,21 @@ class CentrevoteController extends Controller
       $provinces        = $this->provinceRepository->getAll();
       $sieges           = $this->siegeRepository->getAllOnLy();
       $arrondissements  = $this->arrondissementRepository->getAllOnLy();
+      $commoudepts      = $this->commoudeptRepository->getAllOnLy();
       foreach ($rows as $key => $commoudept) {
-        $province_id            = null;
         $siege_id               = null;
+        $province_id            = null;
         $commoudept_id          = null;
         $arrondissement_id      = null;
 
         foreach ($provinces as $key1 => $province) {
+
+
+
             if($commoudept["province"]==$province->province){
                 $province_id = $province->id;
-                foreach ($province->commoudepts as $key => $value) {
-                    if($value->commoudept == $commoudept["commoudept"]);
-                    {
-                        $commoudept_id = $value->id;
-                    }
-                }
+
+
                /* Commoudept::create([
                     "commoudept"=>$commoudept['commoudept'],
                     "province_id"=>$province->id
@@ -167,19 +175,37 @@ class CentrevoteController extends Controller
             }
         }
 
+
+        foreach ($commoudepts as $key => $value) {
+
+            //dd($value->commoudept, $this->cleanString($commoudept["commoudept"]));
+
+            $chaine = $this->cleanString($commoudept["commoudept"]);
+            if($value->commoudept == $chaine)
+            {
+                dd($value->commoudept== $chaine);
+                $commoudept_id = $value->id;
+
+            }
+
+        }
+        dd( $commoudept_id);
+
+
+
+        foreach ($sieges as $key => $value) {
+            if($value->siege==$this->cleanString($commoudept['siege']))
+            {
+                $siege_id = $value->id;
+            }
+        }
         foreach ($arrondissements as $key => $value) {
             if($value->arrondissement==$commoudept['arrondissement'])
             {
                 $arrondissement_id = $value->id;
             }
         }
-
-        foreach ($sieges as $key => $value) {
-            if($value->siege==$commoudept['siege'])
-            {
-                $siege_id = $value->id;
-            }
-        }
+        //dd($province_id );
 
         Centrevote::create([
             "centrevote"=>$commoudept['centrevote'],
@@ -197,13 +223,29 @@ class CentrevoteController extends Controller
             // 6. Retour vers le formulaire avec un message $msg
             return redirect()->back()->with('success', 'Données importées avec succès.');
     }
-    public function getBycommoudept($commoudept){
+   /* public function getBycommoudept($commoudept){
         $centrevotes = $this->centrevoteRepository->getByCommoudept($commoudept);
         $nbCentre =  $this->centrevoteRepository->countByCommoudept($commoudept);
        /* $nbBureau =  $this->lieuvoteRepository->countByCommoudept($commoudept);
         $electeurs = $this->lieuvoteRepository->sumByCommoudept($commoudept);*/
-        $data=array("centrevotes"=>$centrevotes,"nbCentre"=>$nbCentre/*,"nbbureau"=>$nbBureau,
-    "electeur"=>$electeurs*/);
-        return response()->json($data);
+       // $data=array("centrevotes"=>$centrevotes,"nbCentre"=>$nbCentre/*,"nbbureau"=>$nbBureau,
+   // "electeur"=>$electeurs*/);
+    //    return response()->json($data);
+    //}
+
+    public function getBycommoudept($commoudept){
+        $centrevotes = $this->centrevoteRepository->getByCommoudept($commoudept);
+        return response()->json($centrevotes);
+
+    }
+    public function getByArrondissement($arrondissement){
+        $centrevotes = $this->centrevoteRepository->getByArrondissement($arrondissement);
+        return response()->json($centrevotes);
+
+    }
+
+    private function cleanString($value)
+    {
+        return str_replace("\u{A0}", ' ', $value);
     }
 }

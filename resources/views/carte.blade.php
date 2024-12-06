@@ -7,7 +7,8 @@
                                     MINISTÈRE DE</title>
                                 <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
                                 <link href='' rel='stylesheet'>
-                                <style>.register {
+                                <style>
+.register {
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
     margin-top: 3%;
     padding: 3%;
@@ -131,7 +132,7 @@
     <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
 </head>
 <body oncontextmenu='return false' class='snippet-body'>
-<div class="container register">
+<div class=" register">
     <div class="row">
         <div class="col-md-3 register-left">
             <img src="{{ asset('img/2.webp') }}" alt="" />

@@ -3,8 +3,11 @@
 use App\Http\Controllers\ArrondissementController;
 use App\Http\Controllers\CarteController;
 use App\Http\Controllers\CentrevoteController;
+use App\Http\Controllers\ChangementController;
+use App\Http\Controllers\CommetArrondissementController;
 use App\Http\Controllers\CommoudeptController;
 use App\Http\Controllers\ElecteurController;
+use App\Http\Controllers\InscriptionController;
 use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\SiegeController;
 use Illuminate\Support\Facades\Route;
@@ -41,3 +44,17 @@ Route::post('/carte',[CarteController::class,'carte'])->name("carte.search")/*->
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('inscription', InscriptionController::class)/*->middleware("auth")*/;
+Route::resource('changement', ChangementController::class)/*->middleware("auth")*/;
+
+Route::resource('commetarrondissement', CommetArrondissementController::class)/*->middleware("auth")*/;
+Route::post('/importer/commetarrondissement',[CommetArrondissementController::class,'importExcel'])->name("importer.commetarrondissement")/*->middleware("auth")*/;
+
+Route::get('/commoudept/by/province/{province}',[CommoudeptController::class,'getByProvince'])/*->name("importer.commetarrondissement")->middleware("auth")*/;
+
+Route::get('/arrondissement/by/commoudept/{commoudept}',[ArrondissementController::class,'getByCommouDepartement'])/*->name("importer.commetarrondissement")->middleware("auth")*/;
+
+Route::get('/centrevote/by/commoudept/{commoudept}',[CentrevoteController::class,'getBycommoudept'])/*->name("importer.commetarrondissement")->middleware("auth")*/;
+
+Route::get('/centrevote/by/arrondissement/{arrondissement}',[CentrevoteController::class,'getByArrondissement'])/*->name("importer.commetarrondissement")->middleware("auth")*/;

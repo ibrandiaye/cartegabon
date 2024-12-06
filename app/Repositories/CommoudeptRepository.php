@@ -9,14 +9,14 @@ class CommoudeptRepository extends RessourceRepository{
     public function __construct(Commoudept $commoudept){
         $this->model = $commoudept;
     }
-    public function getAllWithRegion(){
-        return Commoudept::with('region')
+    public function getAllWithProvince(){
+        return Commoudept::with('province')
         ->get();
     }
 
-    public function getByRegion($region){
+    public function getByProvince($province){
         return DB::table("commoudepts")
-        ->where("region_id",$region)
+        ->where("province_id",$province)
         ->orderBy("commoudept","asc")
 
         ->get();

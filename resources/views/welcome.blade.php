@@ -52,13 +52,13 @@ License: You must have a valid license purchased only from templatemonster to le
                 <li class="nav-item">
                     <a id="settings_toggle_btn" class="nav-link nav-link-hover" href="javascript:void(0);"><span class="feather-icon"><i data-feather="settings"></i></span></a>
                 </li> --}}
-              
+
                 <li class="nav-item dropdown dropdown-authentication">
                     <a class="nav-link dropdown-toggle no-caret" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="media">
                             <div class="media-img-wrap">
                                 <div class="avatar">
-                                    <img src="dist/img/avatar12.jpg" alt="user" class="avatar-img rounded-circle">
+                                    <img src=" {{ asset('dist/img/avatar12.jpg') }} " alt="user" class="avatar-img rounded-circle">
                                 </div>
                                 <span class="badge badge-success badge-indicator"></span>
                             </div>
@@ -112,8 +112,10 @@ License: You must have a valid license purchased only from templatemonster to le
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#dash_drp">
-                                <span class="feather-icon"><i data-feather="map"></i></span>
-                                <span class="nav-link-text">Province</span>
+                                <span class="material-icons">
+                                    location_city
+                                    </span>
+                                <span class="nav-link-text"> &nbsp;&nbsp;Province</span>
                             </a>
                             <ul id="dash_drp" class="nav flex-column collapse collapse-level-1">
                                 <li class="nav-item">
@@ -132,8 +134,10 @@ License: You must have a valid license purchased only from templatemonster to le
 
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#commoudept">
-                                <span class="feather-icon"><i data-feather="map"></i></span>
-                                <span class="nav-link-text">Departement ou Commune</span>
+                                <span class="material-icons">
+                                    location_on
+                                    </span>
+                                <span class="nav-link-text">&nbsp;&nbsp;Departement ou Commune</span>
                             </a>
                             <ul id="commoudept" class="nav flex-column collapse collapse-level-1">
                                 <li class="nav-item">
@@ -169,12 +173,35 @@ License: You must have a valid license purchased only from templatemonster to le
                                 </li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#commetarrondissement">
+                                <span class="material-icons">
+                                     chair
+                                    </span>
+                                <span class="nav-link-text"> &nbsp;&nbsp;Commune et Arrondissement</span>
+                            </a>
+                            <ul id="commetarrondissement" class="nav flex-column collapse collapse-level-1">
+                                <li class="nav-item">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('commetarrondissement.create') }}">Enregistrer Commune et Arrondissement</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('commetarrondissement.index') }}">Liste Commune et Arrondissement</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
 
 
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#siege">
-                                <span class="feather-icon"><i data-feather="map"></i></span>
-                                <span class="nav-link-text">Siege</span>
+                                <span class="material-icons">
+                                     chair
+                                    </span>
+                                <span class="nav-link-text"> &nbsp;&nbsp;Siege</span>
                             </a>
                             <ul id="siege" class="nav flex-column collapse collapse-level-1">
                                 <li class="nav-item">
@@ -194,8 +221,10 @@ License: You must have a valid license purchased only from templatemonster to le
 
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#centrevote">
-                                <span class="feather-icon"><i data-feather="map"></i></span>
-                                <span class="nav-link-text">Centre de vote</span>
+                                <span class="material-icons">
+                                    how_to_vote
+                                    </span>
+                                <span class="nav-link-text"> &nbsp;&nbsp;Centre de vote</span>
                             </a>
                             <ul id="centrevote" class="nav flex-column collapse collapse-level-1">
                                 <li class="nav-item">
@@ -231,7 +260,53 @@ License: You must have a valid license purchased only from templatemonster to le
                                 </li>
                             </ul>
                         </li>
-                       
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#inscription">
+                                <span class="material-icons">
+                                    person_add
+                                    </span>
+                                <span class="nav-link-text">&nbsp;&nbsp;Inscription </span>
+                            </a>
+                            <ul id="inscription" class="nav flex-column collapse collapse-level-1">
+                                <li class="nav-item">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('inscription.create') }}">Enregistrer Inscription</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('inscription.index') }}">Liste  Inscription</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#Changement">
+                                <span class="material-icons">
+                                    manage_accounts
+                                    </span>
+                                <span class="nav-link-text">&nbsp;&nbsp;Changement</span>
+                            </a>
+                            <ul id="Changement" class="nav flex-column collapse collapse-level-1">
+                                <li class="nav-item">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('changement.create') }}">Enregistrer Changement</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('changement.index') }}">Liste  Changement</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
                     </ul>
 
                 </div>
@@ -270,8 +345,8 @@ License: You must have a valid license purchased only from templatemonster to le
                     <button id="reset_settings" class="btn btn-primary btn-block btn-reset mt-30">Reset</button>
                 </div>
             </div>
-            <img class="d-none" src="dist/img/logo-light.png" alt="brand" />
-            <img class="d-none" src="dist/img/logo-dark.png" alt="brand" />
+            <img class="d-none" src=" {{ asset('dist/img/logo-light.png') }} " alt="brand" />
+            <img class="d-none" src="{{ asset('dist/img/logo-dark.png') }}" alt="brand" />
         </div>
         <!-- /Setting Panel -->
 
