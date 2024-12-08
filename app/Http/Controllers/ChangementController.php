@@ -2,23 +2,35 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\ArrondissementRepository;
 use App\Repositories\CentrevoteRepository;
 use App\Repositories\ChangementRepository;
+use App\Repositories\CommoudeptRepository;
 use App\Repositories\ElecteurRepository;
+use App\Repositories\IdentificationRepository;
+use App\Repositories\ProvinceRepository;
 use Illuminate\Http\Request;
 
 class ChangementController extends Controller
 {
     protected $changementRepository;
-    protected $electeurRepository;
     protected $centrevoteRepository;
+    protected $commoudeptRepository;
+    protected $provinceRepository;
+
+    protected $arrondissementRepository;
+    protected $identificationRepository;
 
 
-    public function __construct(ChangementRepository $changementRepository, ElecteurRepository $electeurRepository,
-    CentrevoteRepository $centrevoteRepository){
-        $this->changementRepository         =   $changementRepository;
-        $this->electeurRepository         =   $electeurRepository;
-        $this->centrevoteRepository           =   $centrevoteRepository;
+    public function __construct(ChangementRepository $changementRepository,
+    CentrevoteRepository $centrevoteRepository,ProvinceRepository $provinceRepository,CommoudeptRepository $commoudeptRepository,
+    ArrondissementRepository $arrondissementRepository,IdentificationRepository $identificationRepository){
+        $this->changementRepository =$changementRepository;
+        $this->centrevoteRepository =$centrevoteRepository;
+        $this->arrondissementRepository = $arrondissementRepository;
+        $this->provinceRepository = $provinceRepository;
+        $this->commoudeptRepository = $commoudeptRepository;
+        $this->identificationRepository = $identificationRepository;
     }
 
     /**
@@ -28,10 +40,14 @@ class ChangementController extends Controller
      */
     public function index()
     {
-        $changements = $this->changementRepository->getAllCentre();
+        $changements = $this->changementRepository->getWithIndentification();
         return view('changement.index',compact('changements'));
     }
 
+    public function allchangementApi(){
+        $changements = $this->changementRepository->getAll();
+        return response()->json($changements);
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -39,10 +55,9 @@ class ChangementController extends Controller
      */
     public function create()
     {
-        $electeurs = $this->electeurRepository->getAll();
         $centrevotes = $this->centrevoteRepository->getAll();
-     //   $electeurs = $this->electeurRepository->getAll();
-        return view('changement.add',compact('electeurs','centrevotes'));
+        $provinces = $this->provinceRepository->getAllOnLy();
+        return view('changement.add',compact('centrevotes','provinces'));
     }
 
     /**
@@ -53,7 +68,8 @@ class ChangementController extends Controller
      */
     public function store(Request $request)
     {
-
+        $identification = $this->identificationRepository->store($request->all());
+        $request->merge(["identification_id"=>$identification->id]);
         $changements = $this->changementRepository->store($request->all());
         return redirect('changement');
 
@@ -67,8 +83,11 @@ class ChangementController extends Controller
      */
     public function show($id)
     {
-        $changement = $this->changementRepository->getById($id);
-        return view('changement.show',compact('changement'));
+       // $changement = $this->changementRepository->getById($id);
+
+       $modification = $this->changementRepository->getByIdWithRelation($id);
+       $identification = $this->identificationRepository->getById($modification->identification_id);
+        return view('modification',compact('modification','identification'));
     }
 
     /**
@@ -79,9 +98,9 @@ class ChangementController extends Controller
      */
     public function edit($id)
     {
-        $electeurs = $this->electeurRepository->getAll();
+        $centrevotes = $this->centrevoteRepository->getAll();
         $changement = $this->changementRepository->getById($id);
-        return view('changement.edit',compact('changement','electeurs'));
+        return view('changement.edit',compact('changement','centrevotes'));
     }
 
     /**
@@ -93,7 +112,6 @@ class ChangementController extends Controller
      */
     public function update(Request $request, $id)
     {
-
         $this->changementRepository->update($id, $request->all());
         return redirect('changement');
     }

@@ -26,9 +26,10 @@ class CentrevoteRepository extends RessourceRepository{
         ->orderBy("centrevote","asc")
         ->get();
     }
-    public function getByArrondissement($arrondissement){
+    public function getByArrondissement($arrondissement,$commoudept){
         return DB::table("centrevotes")
         ->where("arrondissement_id",$arrondissement)
+        ->where("commoudept_id",$commoudept)
         ->orderBy("centrevote","asc")
         ->get();
     }
@@ -49,6 +50,13 @@ public function countByCommoudept($commoudept){
     return DB::table("centrevotes")
     ->join("commoudepts","centrevotes.commoudept_id","=","commoudepts.id")
     ->where("commoudepts.id",$commoudept)
+    ->count();
+}
+
+public function count()
+{
+    return DB::table("centrevotes")
+  
     ->count();
 }
 

@@ -205,4 +205,9 @@ class ElecteurController extends Controller
             return redirect()->back()->with('success', 'Données importées avec succès.');
     }
 
+    public function getBynip_ipn($nip_ipn)
+    {
+       $electeur = $this->electeurRepository->getBynip_ipn($nip_ipn);
+        return response()->json($electeur);
+    }
 }

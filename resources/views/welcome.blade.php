@@ -43,7 +43,8 @@ License: You must have a valid license purchased only from templatemonster to le
         <nav class="navbar navbar-expand-xl navbar-light fixed-top hk-navbar">
             <a id="navbar_toggle_btn" class="navbar-toggle-btn nav-link-hover" href="javascript:void(0);"><span class="feather-icon"><i data-feather="menu"></i></span></a>
             <a class="navbar-brand font-weight-700" href="dashboard1.html">
-                Marvin
+                <img class="img" height="50px" src="{{ asset('img/2.webp') }}" alt="" />
+
             </a>
             <ul class="navbar-nav hk-navbar-content">
               {{--   <li class="nav-item">
@@ -63,7 +64,7 @@ License: You must have a valid license purchased only from templatemonster to le
                                 <span class="badge badge-success badge-indicator"></span>
                             </div>
                             <div class="media-body">
-                                <span>Madelyn Shane<i class="zmdi zmdi-chevron-down"></i></span>
+                                <span> {{Auth::user()->name}}<i class="zmdi zmdi-chevron-down"></i></span>
                             </div>
                         </div>
                     </a>
@@ -82,7 +83,13 @@ License: You must have a valid license purchased only from templatemonster to le
                             </div>
                         </div>
                         <div class="dropdown-divider"></div> --}}
-                        <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-power"></i><span>Log out</span></a>
+                       
+                        <a  href="#"  class="dropdown-item" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();"><i class="dropdown-icon zmdi zmdi-power"></i><span> Se Deconnecter</span></a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form> 
                     </div>
                 </li>
             </ul>
@@ -105,7 +112,7 @@ License: You must have a valid license purchased only from templatemonster to le
 
                         <!--Menu -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('home') }}">
                                 <span class="feather-icon"><i data-feather="activity"></i></span>
                                 <span class="nav-link-text">Tableau de bords</span>
                             </a>
@@ -345,8 +352,8 @@ License: You must have a valid license purchased only from templatemonster to le
                     <button id="reset_settings" class="btn btn-primary btn-block btn-reset mt-30">Reset</button>
                 </div>
             </div>
-            <img class="d-none" src=" {{ asset('dist/img/logo-light.png') }} " alt="brand" />
-            <img class="d-none" src="{{ asset('dist/img/logo-dark.png') }}" alt="brand" />
+         {{--    <img class="d-none" src=" {{ asset('dist/img/logo-light.png') }} " alt="brand" />
+            <img class="d-none" src="{{ asset('dist/img/logo-dark.png') }}" alt="brand" /> --}}
         </div>
         <!-- /Setting Panel -->
 

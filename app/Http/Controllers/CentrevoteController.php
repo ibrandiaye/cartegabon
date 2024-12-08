@@ -238,8 +238,8 @@ class CentrevoteController extends Controller
         return response()->json($centrevotes);
 
     }
-    public function getByArrondissement($arrondissement){
-        $centrevotes = $this->centrevoteRepository->getByArrondissement($arrondissement);
+    public function getByArrondissement($arrondissement,$commoudept){
+        $centrevotes = $this->centrevoteRepository->getByArrondissement($arrondissement,$commoudept);
         return response()->json($centrevotes);
 
     }

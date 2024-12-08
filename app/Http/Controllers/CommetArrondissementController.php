@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Imports\CommetArrondissementImport;
 use App\Models\CommetArrondissement;
 use App\Repositories\ArrondissementRepository;
 use App\Repositories\CommetArrondissementRepository;
 use App\Repositories\CommoudeptRepository;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 use Spatie\SimpleExcel\SimpleExcelReader;
 
 class CommetArrondissementController extends Controller
@@ -116,7 +118,14 @@ class CommetArrondissementController extends Controller
         $commetarrondissements = $this->commetarrondissementRepository->getByCommoudept($commoudept);
         return response()->json($commetarrondissements);
     }
+
     public function importExcel(Request $request)
+    {
+        Excel::import(new CommetArrondissementImport,$request['file']);
+        //  dd($data);
+         return redirect()->back()->with('success', 'Données importées avec succès.');
+    }
+    public function importExcels(Request $request)
     {
          /*  Excel::import(new CommetArrondissementImport,$request['file']);
        //  dd($data);

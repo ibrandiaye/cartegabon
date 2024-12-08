@@ -10,4 +10,17 @@ class IdentificationRepository extends RessourceRepository{
         $this->model = $identification;
     }
 
+    public function getByIdWithRelation($id)
+    {
+        return DB::table("identifications")
+        ->join("provinces","identifications.province_id","=","provinces.id")
+        ->join("commoudepts","identifications.commoudept_id","=","commoudepts.id")
+        ->leftJoin("arrondissements","identifications.arrondissement_id","=","arrondissements.id")
+
+        ->select("identifications.*","provinces.province","commoudepts.commoudept","arrondissements.arrondissement")
+        ->where("identifications.id",$id)
+        ->first();
+    }
+
+
 }

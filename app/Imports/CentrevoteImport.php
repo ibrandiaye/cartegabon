@@ -6,7 +6,6 @@ use App\Models\Centrevote;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToCollection;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 
 class CentrevoteImport implements ToArray, WithHeadingRow

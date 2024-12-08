@@ -10,5 +10,5 @@ class Inscription extends Model
     use HasFactory;
 
     protected $fillable = [
-       'centrevote_id'];
+       'centrevote_id','identification_id'];
 }

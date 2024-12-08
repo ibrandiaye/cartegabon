@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Repositories\ArrondissementRepository;
 use App\Repositories\CentrevoteRepository;
 use App\Repositories\CommoudeptRepository;
+use App\Repositories\IdentificationRepository;
 use App\Repositories\InscriptionRepository;
 use App\Repositories\ProvinceRepository;
 use Illuminate\Http\Request;
@@ -18,15 +19,18 @@ class InscriptionController extends Controller
 
     protected $arrondissementRepository;
 
+    protected $identificationRepository;
 
     public function __construct(InscriptionRepository $inscriptionRepository,
     CentrevoteRepository $centrevoteRepository,ProvinceRepository $provinceRepository,CommoudeptRepository $commoudeptRepository,
-    ArrondissementRepository $arrondissementRepository){
+    ArrondissementRepository $arrondissementRepository,IdentificationRepository $identificationRepository){
         $this->inscriptionRepository =$inscriptionRepository;
         $this->centrevoteRepository =$centrevoteRepository;
         $this->arrondissementRepository = $arrondissementRepository;
         $this->provinceRepository = $provinceRepository;
         $this->commoudeptRepository = $commoudeptRepository;
+        $this->identificationRepository = $identificationRepository;
+
     }
 
     /**
@@ -36,7 +40,7 @@ class InscriptionController extends Controller
      */
     public function index()
     {
-        $inscriptions = $this->inscriptionRepository->getAll();
+        $inscriptions = $this->inscriptionRepository->getWithIndentification();
         return view('inscription.index',compact('inscriptions'));
     }
 
@@ -64,6 +68,8 @@ class InscriptionController extends Controller
      */
     public function store(Request $request)
     {
+        $identification = $this->identificationRepository->store($request->all());
+        $request->merge(["identification_id"=>$identification->id]);
         $inscriptions = $this->inscriptionRepository->store($request->all());
         return redirect('inscription');
 
@@ -77,8 +83,12 @@ class InscriptionController extends Controller
      */
     public function show($id)
     {
-        $inscription = $this->inscriptionRepository->getById($id);
-        return view('inscription.show',compact('inscription'));
+      //  $inscription = $this->inscriptionRepository->getById($id);
+      $inscription = $this->inscriptionRepository->getByIdWithRelation($id);
+      //dd($inscription->identification_id);
+      $identification = $this->identificationRepository->getByIdWithRelation($inscription->identification_id);
+      //dd($identification);
+        return view('inscription',compact('inscription','identification'));
     }
 
     /**
