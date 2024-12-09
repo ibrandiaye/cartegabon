@@ -52,15 +52,15 @@ Route::resource('changement', ChangementController::class)->middleware("auth");
 Route::resource('commetarrondissement', CommetArrondissementController::class)->middleware("auth");
 Route::post('/importer/commetarrondissement',[CommetArrondissementController::class,'importExcel'])->name("importer.commetarrondissement")->middleware("auth");
 
-Route::get('/commoudept/by/province/{province}',[CommoudeptController::class,'getByProvince'])->name("importer.commetarrondissement")->middleware("auth");
+Route::get('/commoudept/by/province/{province}',[CommoudeptController::class,'getByProvince']);
 
-Route::get('/arrondissement/by/commoudept/{commoudept}',[ArrondissementController::class,'getByCommouDepartement'])->name("importer.commetarrondissement")->middleware("auth");
+Route::get('/arrondissement/by/commoudept/{commoudept}',[ArrondissementController::class,'getByCommouDepartement']);
 
-Route::get('/centrevote/by/commoudept/{commoudept}',[CentrevoteController::class,'getBycommoudept'])->name("importer.commetarrondissement")->middleware("auth");
+Route::get('/centrevote/by/commoudept/{commoudept}',[CentrevoteController::class,'getBycommoudept']);
 
-Route::get('/centrevote/by/arrondissement/{arrondissement}/{commoudept}',[CentrevoteController::class,'getByArrondissement'])->name("importer.commetarrondissement")->middleware("auth");
+Route::get('/centrevote/by/arrondissement/{arrondissement}/{commoudept}',[CentrevoteController::class,'getByArrondissement']);
 
-Route::get('/electeur/by/nip_ipn/{nip_ipn}',[ElecteurController::class,'getBynip_ipn'])->name("importer.commetarrondissement")->middleware("auth");
+Route::get('/electeur/by/nip_ipn/{nip_ipn}',[ElecteurController::class,'getBynip_ipn']);
 
 
 Route::get('/inscriptions', function () {
@@ -68,6 +68,6 @@ Route::get('/inscriptions', function () {
     return view('inscription');
 });
 
-Route::get('/generer/pdf',[HomeController::class,'generatePDF'])->name("importer.commetarrondissement")->middleware("auth");
+Route::get('/generer/pdf',[HomeController::class,'generatePDF'])->middleware("auth");
 
 
