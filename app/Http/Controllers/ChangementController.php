@@ -71,7 +71,7 @@ class ChangementController extends Controller
         $identification = $this->identificationRepository->store($request->all());
         $request->merge(["identification_id"=>$identification->id]);
         $changements = $this->changementRepository->store($request->all());
-        return redirect('changement');
+        return redirect('changement/'.$changements->id);
 
     }
 

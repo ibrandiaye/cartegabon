@@ -71,7 +71,7 @@ class InscriptionController extends Controller
         $identification = $this->identificationRepository->store($request->all());
         $request->merge(["identification_id"=>$identification->id]);
         $inscriptions = $this->inscriptionRepository->store($request->all());
-        return redirect('inscription');
+        return redirect('inscription/'.$inscriptions->id);
 
     }
 
