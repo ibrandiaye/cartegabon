@@ -10,6 +10,7 @@ use App\Repositories\ElecteurRepository;
 use App\Repositories\IdentificationRepository;
 use App\Repositories\ProvinceRepository;
 use Illuminate\Http\Request;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class ChangementController extends Controller
 {
@@ -86,8 +87,10 @@ class ChangementController extends Controller
        // $changement = $this->changementRepository->getById($id);
 
        $modification = $this->changementRepository->getByIdWithRelation($id);
-       $identification = $this->identificationRepository->getById($modification->identification_id);
-        return view('modification',compact('modification','identification'));
+       $identification = $this->identificationRepository->getByIdWithRelation($modification->identification_id);
+       $qrcode = QrCode::size(50)->generate(config('app.url')."/changement/".$modification->id);
+      // dd($identification);
+        return view('modification',compact('modification','identification','qrcode'));
     }
 
     /**

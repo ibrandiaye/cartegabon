@@ -45,7 +45,7 @@
                             <td>{{ $commetarrondissement->commoudept->commoudept }}</td>
                             <td>{{ $commetarrondissement->arrondissement->arrondissement }}</td>
                             <td>
-                                <a href="{{ route('commetarrondissement.edit', $commetarrondissement->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+                                {{-- <a href="{{ route('commetarrondissement.edit', $commetarrondissement->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a> --}}
                                  {!! Form::open(['method' => 'DELETE', 'route'=>['commetarrondissement.destroy', $commetarrondissement->id], 'style'=> 'display:inline', 'onclick'=>"if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]) !!}
                                  <a class="btn btn-danger" href="{{ route('commetarrondissement.destroy', $commetarrondissement->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
                                  {!! Form::close() !!}

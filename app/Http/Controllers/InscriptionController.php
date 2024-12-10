@@ -9,6 +9,7 @@ use App\Repositories\IdentificationRepository;
 use App\Repositories\InscriptionRepository;
 use App\Repositories\ProvinceRepository;
 use Illuminate\Http\Request;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class InscriptionController extends Controller
 {
@@ -88,7 +89,10 @@ class InscriptionController extends Controller
       //dd($inscription->identification_id);
       $identification = $this->identificationRepository->getByIdWithRelation($inscription->identification_id);
       //dd($identification);
-        return view('inscription',compact('inscription','identification'));
+    //  $qrcode = QrCode::size(50)->generate(config('app.url')."/inscription/".$inscription->id);
+    $qrcode = QrCode::size(50)->generate('https://drive.google.com/file/d/1QtgnjemtuAseHvmHJbReCRiFRbPOUWXe/view');
+
+        return view('inscription',compact('inscription','identification','qrcode'));
     }
 
     /**

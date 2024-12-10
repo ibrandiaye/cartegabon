@@ -47,7 +47,7 @@
                             <td>
                                 <a href="{{ route('arrondissement.edit', $arrondissement->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
 {{--                                 {!! Form::open(['method' => 'DELETE', 'route'=>['arrondissement.destroy', $arrondissement->id], 'style'=> 'display:inline', 'onclick'=>"if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]) !!}
- --}}                                <a class="btn btn-danger" href="{{ route('arrondissement.destroy', $arrondissement->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
+                               <a class="btn btn-danger" href="{{ route('arrondissement.destroy', $arrondissement->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
                                 {{-- {!! Form::close() !!} --}}
 
 

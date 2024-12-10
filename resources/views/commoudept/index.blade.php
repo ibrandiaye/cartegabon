@@ -47,10 +47,10 @@
                             <td>{{ $commoudept->commoudept }}</td>
                             <td>{{ $commoudept->province->province }}</td>
                             <td>
-                                <a href="{{ route('commoudept.edit', $commoudept->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+                                {{-- <a href="{{ route('commoudept.edit', $commoudept->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a> --}}
                                  {!! Form::open(['method' => 'DELETE', 'route'=>['commoudept.destroy', $commoudept->id], 'style'=> 'display:inline', 'onclick'=>"if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]) !!}
                                <a class="btn btn-danger" href="{{ route('commoudept.destroy', $commoudept->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
-                                {!! Form::close() !!} 
+                                {!! Form::close() !!}
 
 
 

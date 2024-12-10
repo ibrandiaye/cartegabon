@@ -82,7 +82,7 @@
                                     <input type="text" name="tel"  value="{{ old('tel') }}" class="form-control"  required>
                                 </div>
                             </div>
-                           
+
 
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -108,6 +108,23 @@
                                     <input type="text" name="domicile"  value="{{ old('domicile') }}" class="form-control"  required>
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <label>Le demandeur est-il un électeur ayant un handicap réduisant sa mobilité ?   </label>
+                                    <div class="col-md-4 mt-15">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio1" value="1" name="handicap" class="custom-control-input" required>
+                                            <label class="custom-control-label" for="customRadio1">Oui</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-15">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio2" value="0" name="handicap" checked class="custom-control-input" required>
+                                            <label class="custom-control-label" for="customRadio2">Non</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                            {{--  <div class="col-lg-6">
                                 <label>Province</label>
                                 <select class="form-control" name="province_id" id="province_id" required="">
@@ -121,19 +138,19 @@
                             <div class="col-lg-6">
                                 <label>Commune ou departement</label>
                                 <select class="form-control" name="commoudept_id" id="commoudept_id" required="">
-                                  
+
 
                                 </select>
                             </div>
                             <div class="col-lg-6">
                                 <label>Arrondissement</label>
                                 <select class="form-control" name="arrondissement_id" id="arrondissement_id" >
-                                 
+
                                 </select>
                             </div> --}}
                         </div>
 
-                       
+
                     </div>
 
                 </div>
@@ -144,7 +161,7 @@
                         Ancienne Situation
                     </div>
                     <div class="card-body" id="ancienne">
-                        
+
                     </div>
                 </div>
 
@@ -194,7 +211,7 @@
                             <br>
                                 <button type="submit" class="btn btn-success btn btn-lg "> ENREGISTRER</button>
 
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -284,7 +301,7 @@
         $("#commoudept_id_ct").change(function () {
 
             var commoudept_id_ct =  $("#commoudept_id_ct").children("option:selected").val();
-          
+
             var arrondissement = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
                 type:'GET',
@@ -330,7 +347,7 @@
 
             var arrondissement_id_ct =  $("#arrondissement_id_ct").children("option:selected").val();
             var commoudept_id_ct =  $("#commoudept_id_ct").children("option:selected").val();
-          
+
             var centrevote = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
                 type:'GET',
@@ -380,7 +397,7 @@
         $("#commoudept_id_nv").change(function () {
 
             var commoudept_id_nv =  $("#commoudept_id_nv").children("option:selected").val();
-          
+
             var arrondissement = "<option value=''>Veuillez selectionner</option>";
             var centrevote = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
@@ -419,7 +436,7 @@
                     $("#arrondissement_id_nv").append(arrondissement);
                 }
             });
-           
+
         });
 
 
@@ -427,7 +444,7 @@
 
             var arrondissement_id_nv =  $("#arrondissement_id_nv").children("option:selected").val();
             var commoudept_id_nv =  $("#commoudept_id_nv").children("option:selected").val();
-          
+
             var centrevote = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
                 type:'GET',
@@ -482,13 +499,13 @@
                      {
                         contenu = "<div class='alert alert-danger'> Electeur non trouvé</div>"
                      }
-                
+
 
                     console.log(contenu);
             $("#ancienne").html(contenu);
                 }
             });
-           
+
         });
     </script>
 @endsection

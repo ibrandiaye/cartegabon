@@ -55,11 +55,11 @@
 
                                 <td>{{ $electeur->centrevote->centrevote }}</td>
                                 <td>
-                                    <a href="{{ route('electeur.edit', $electeur->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+                                  {{--   <a href="{{ route('electeur.edit', $electeur->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
 
                                     <a  href="{{ route('electeur.destroy', $electeur->id) }}" class="btn btn-danger"  onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"></i></a>
 
-
+ --}}
 
 
                                 </td>

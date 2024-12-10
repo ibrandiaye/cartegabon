@@ -47,7 +47,7 @@
                             <td>
                                 <a href="{{ route('siege.edit', $siege->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
 {{--                                 {!! Form::open(['method' => 'DELETE', 'route'=>['siege.destroy', $siege->id], 'style'=> 'display:inline', 'onclick'=>"if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]) !!}
- --}}                                <a class="btn btn-danger" href="{{ route('siege.destroy', $siege->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
+                               <a class="btn btn-danger" href="{{ route('siege.destroy', $siege->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
                                 {{-- {!! Form::close() !!} --}}
 
 

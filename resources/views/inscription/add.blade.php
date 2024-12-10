@@ -106,7 +106,25 @@
                                     <input type="text" name="domicile"  value="{{ old('domicile') }}" class="form-control"  required>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <label>Le demandeur est-il un électeur ayant un handicap réduisant sa mobilité ?   </label>
+                                    <div class="col-md-4 mt-15">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio1" value="1" name="handicap" class="custom-control-input" required>
+                                            <label class="custom-control-label" for="customRadio1">Oui</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-15">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="customRadio2" value="0" name="handicap" checked class="custom-control-input" required>
+                                            <label class="custom-control-label" for="customRadio2">Non</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                          {{--   <div class="col-lg-6">
                                 <label>Province</label>
                                 <select class="form-control" name="province_id" id="province_id" required="">
                                     <option value="">Selectionnez</option>
@@ -119,24 +137,18 @@
                             <div class="col-lg-6">
                                 <label>Commune ou departement</label>
                                 <select class="form-control" name="commoudept_id" id="commoudept_id" required="">
-                                   {{--  @foreach ($commoudepts as $commoudept)
-                                    <option value="{{$commoudept->id}}">{{$commoudept->commoudept}}</option>
-                                        @endforeach --}}
 
                                 </select>
                             </div>
                             <div class="col-lg-6">
                                 <label>Arrondissement</label>
                                 <select class="form-control" name="arrondissement_id" id="arrondissement_id" >
-                                   {{--  @foreach ($arrondissements as $arrondissement)
-                                    <option value="{{$arrondissement->id}}">{{$arrondissement->arrondissement}}</option>
-                                        @endforeach
-         --}}
+
                                 </select>
-                            </div>
+                            </div> --}}
                         </div>
 
-                       
+
                     </div>
 
                 </div>
@@ -150,7 +162,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <label>Province</label>
-                                <select class="form-control" name="province_id_ct" id="province_id_ct" required="">
+                                <select class="form-control" name="province_id" id="province_id_ct" required="">
                                     <option value="">Selectionnez</option>
                                     @foreach ($provinces as $province)
                                     <option value="{{$province->id}}">{{$province->province}}</option>
@@ -160,13 +172,13 @@
                             </div>
                             <div class="col-lg-6">
                                 <label>Commune ou departement</label>
-                                <select class="form-control" name="commoudept_id_ct" id="commoudept_id_ct" required="">
+                                <select class="form-control" name="commoudept_id" id="commoudept_id_ct" required="">
 
                                 </select>
                             </div>
                             <div class="col-lg-6">
                                 <label>Arrondissement</label>
-                                <select class="form-control" name="arrondissement_id_ct" id="arrondissement_id_ct" >
+                                <select class="form-control" name="arrondissement_id" id="arrondissement_id_ct" >
 
                                 </select>
                             </div>
@@ -179,7 +191,7 @@
                             <div>
                                 <br>
                                     <button type="submit" class="btn btn-success btn btn-lg "> ENREGISTRER</button>
-    
+
                             </div>
                         </div>
                     </div>
@@ -272,7 +284,7 @@
         $("#commoudept_id_ct").change(function () {
 
             var commoudept_id_ct =  $("#commoudept_id_ct").children("option:selected").val();
-          
+
             var arrondissement = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
                 type:'GET',
@@ -318,7 +330,7 @@
 
             var arrondissement_id_ct =  $("#arrondissement_id_ct").children("option:selected").val();
             var commoudept_id_ct =  $("#commoudept_id_ct").children("option:selected").val();
-          
+
             var centrevote = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
                 type:'GET',
@@ -368,13 +380,13 @@
                      {
                         contenu = "<div class='alert alert-danger'> Donnees non trouvé</div>"
                      }
-                
+
 
                     console.log(contenu);
             $("#ancienne").html(contenu);
                 }
             });
-           
+
         });
 
     </script>

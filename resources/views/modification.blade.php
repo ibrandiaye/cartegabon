@@ -57,12 +57,12 @@
         <hr>
         <div class="sub-header">
             <h4>FORMULAIREMODIFICATION SUR LES LISTES ELECTORALES</h4>
-            <h4>Numéro de la demande :  {{$modification->id}} </h4>
+            <h4>Numéro de la demande :  {{$modification->id}} <span style="text-align: right ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $qrcode }}</span></h4>
         </div>
 
         <!-- Identification de la commission -->
         <div class="gray" style="display:flex; align-items: center;justify-content: center;height: 30px;">
-            <center> <h4>IDENTIFICATION DE LA COMMISSION ADMINISTRATIVE</h4></center> 
+            <center> <h4>IDENTIFICATION DE LA COMMISSION ADMINISTRATIVE</h4></center>
         </div>
         <table>
             <tr>
@@ -89,10 +89,16 @@
             <tr>
                 <td style="text-align: left;">DATE ET LIEU DE NAISSANCE : <strong>{{$identification->datenaiss}} {{$identification->lieunaiss}}</strong></td>
             </tr>
+            <tr>
+                <td style="text-align: left;"> Adresse et numéro de téléphone du demandeur : <strong> {{$identification->domicile}} {{$identification->tel}} </strong></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">  Le demandeur est-il un électeur ayant un handicap réduisant sa mobilité ?  <strong>@if($identification->handicap==0) Non @else Oui  @endif</strong></td>
+            </tr>
         </table>
 
         <div class="gray" style="display:flex; align-items: center;justify-content: center;height: 30px;">
-            <center> <h4>INFORMATIONS ELECTORALES</h4></center> 
+            <center> <h4>INFORMATIONS ELECTORALES</h4></center>
         </div>
         <table>
             <tr>
@@ -102,11 +108,11 @@
             </tr>
             <tr>
                 <td style="text-align: left;" colspan="3">Centre de vote : {{$modification->centrevote}}</td>
-               
+
             </tr>
-            
+
         </table>
-    
+
 
         <!-- Authentification du formulaire -->
         <div class="gray" style="display:flex; align-items: center;justify-content: center;height: 30px;">
@@ -116,30 +122,31 @@
         <table>
             <tr>
 
-               
-                <td style="text-align: left; height: 80px;padding-top: 0px;border: none;"> Signature du demandeur :</td>
-                <td style="text-align: right;border: none;">Visa du représentant de la CENA (Signature et cachet)</td> 
+
+                <td style="text-align: left;padding-top: 0px;border: none;"> Signature du demandeur :</td>
+                <td style="text-align: right;border: none;">Visa du représentant de la CENA (Signature et cachet)</td>
             </tr>
             <tr>
-                <td style="text-align: left; height: 80px;padding-top: 0px;border: none;"></td>
-                <td style="text-align: right;height: 80px;border: none;"></td> 
+                <td style="text-align: left; height: 60px;padding-top: 0px;border: none;"></td>
+                <td style="text-align: right;height: 60px;border: none;"></td>
             </tr>
         </table>
-       
+
         <p>
             <br> Prénoms et nom du Président de la commission administrative : ..................................................
         </p>
     </div>
 
-    
-   
+
+
+    <br><br>
+    <div  style="display:flex; align-items: center;justify-content: center;height: 30px;">
+        <center> <h4>  Numéro de la demande : {{$modification->id}} <span style="text-align: right ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $qrcode }}</span></h4></center>
+
+    </div>
     <br>
     <div  style="display:flex; align-items: center;justify-content: center;height: 30px;">
-        <center> <h4>  Numéro de la demande : {{$modification->id}}</h4></center> 
-            
-    </div>
-    <div  style="display:flex; align-items: center;justify-content: center;height: 30px;">
-    <center> <h4>  RECEPISSE DESTINE A L’ELECTEUR</h4></center> 
+    <center> <h4>  RECEPISSE DESTINE A L’ELECTEUR</h4></center>
     </div>
 
     <p>Prénoms <strong>{{$identification->prenom}}</strong>  Nom <strong>{{$identification->nom}}</strong>
@@ -148,17 +155,17 @@
         une demande d’modification sur la liste électorale de  <strong>{{$modification->centrevote}} </strong></p>
         <table style="border: none;">
             <tr>
-               
+
                 <td style="text-align: left;border: none;"> Le Président de la commission</td>
-               
+
                 <td style="text-align: right;border: none;"> Visa de la CENA</td>
             </tr>
             <tr >
                 <td style="text-align: left;border: none;"  ></td>
                 <td style="text-align: left; border: none;" ></td>
-               
+
             </tr>
-      		      				
+
 
 </body>
 

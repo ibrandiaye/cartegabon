@@ -28,7 +28,7 @@
     <div class="card ">
         <div class="card-header">LISTE D'ENREGISTREMENT DES changements</div>
             <div class="card-body">
-              
+
                 <table id="example1" class="table table-bordered table-responsive-md table-striped text-center">
                     <thead>
                         <tr>
@@ -47,11 +47,11 @@
                             <td>{{ $changement->nom }}</td>
                             <td>{{ $changement->nip }}</td>
                             <td>
-                                <a href="{{ route('changement.edit', $changement->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
+                                {{-- <a href="{{ route('changement.edit', $changement->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a> --}}
                                 <a href="{{ route('changement.show', $changement->changement) }}" role="button" class="btn btn-info"><i class="fa fa-print"></i></a>
 
 {{--                                 {!! Form::open(['method' => 'DELETE', 'route'=>['changement.destroy', $changement->id], 'style'=> 'display:inline', 'onclick'=>"if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]) !!}
- --}}                                <a class="btn btn-danger" href="{{ route('changement.destroy', $changement->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
+                              <a class="btn btn-danger" href="{{ route('changement.destroy', $changement->id) }}" onclick="if(!confirm('Êtes-vous sûr de vouloir supprimer cet enregistrement ?')) { return false; }"]><i class="fa fa-trash"><i class="far fa-trash-alt"></i></button>
                                 {{-- {!! Form::close() !!} --}}
 
 
