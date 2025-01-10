@@ -13,10 +13,10 @@ use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\SiegeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 })->middleware("auth");
-
+*/
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -35,12 +35,17 @@ Route::post('/importer/centrevote',[CentrevoteController::class,'importExcel'])-
 Route::resource('electeur', ElecteurController::class)->middleware("auth");
 
 
+Route::get('/', function () {
+    $electeur = null;
+    $erreur = null;
+    return view('carte',compact("electeur","erreur"));
+})->name("carte");
 Route::get('/carte', function () {
     $electeur = null;
     $erreur = null;
     return view('carte',compact("electeur","erreur"));
 })->name("carte");
-Route::post('/carte',[CarteController::class,'carte'])->name("carte.search")->middleware("auth");
+Route::post('/carte',[CarteController::class,'carte'])->name("carte.search");//->middleware("auth");
 
 Auth::routes();
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Repositories\CentrevoteRepository;
 use App\Repositories\ChangementRepository;
 use App\Repositories\InscriptionRepository;
+use App\Repositories\ProvinceRepository;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 
@@ -19,14 +20,18 @@ class HomeController extends Controller
      protected $centrevoteRepository;
      protected $inscriptionRepository;
      protected $changementRepository;
+     protected $provinceRepository;
+
     public function __construct(CentrevoteRepository $centrevoteRepository,InscriptionRepository $inscriptionRepository,
-    ChangementRepository $changementRepository)
+    ChangementRepository $changementRepository,ProvinceRepository $provinceRepository)
     {
         $this->middleware('auth');
 
         $this->centrevoteRepository = $centrevoteRepository;
         $this->inscriptionRepository = $inscriptionRepository;
         $this->changementRepository = $changementRepository;
+        $this->provinceRepository = $provinceRepository;
+
     }
 
     /**
@@ -39,7 +44,9 @@ class HomeController extends Controller
         $nbCentrevote  = $this->centrevoteRepository->count();
         $nbInscription = $this->inscriptionRepository->count();
         $nbChangement = $this->changementRepository->count();
-        return view('home',compact("nbCentrevote","nbInscription","nbChangement"));
+        $provinces = $this->provinceRepository->getAllOnLy();
+        return view('home',compact("nbCentrevote","nbInscription",
+        "nbChangement",'provinces'));
     }
     public function generatePDF()
     {

@@ -142,6 +142,11 @@
         <div class="col-md-9 register-right">
 
             <h3 class="register-heading">Consultation du fichier électoral</h3>
+            @if ($message = Session::get('error'))
+                <div class="alert alert-danger">
+                    <p>{{ $message }}</p>
+                </div>
+            @endif
             <form method="POST" action="{{ route('carte.search') }}">
                 @csrf
                 <div class="row register-form">

@@ -17,6 +17,12 @@ class CarteController extends Controller
 
     public function carte(Request $request)
     {
+        //        ->where("electeurs.nom",$request->nom)->where("electeurs.prenom",$request->prenom)->where("electeurs.nip_ipn",$request->nip_ipn)->first();
+
+        if(empty($request->nom) ||empty($request->prenom) || empty($request->nip_ipn) )
+        {
+            return redirect()->back()->with(["error"=>"Toutes les Champs sont obligatoires"])->withInput();
+        }
         $electeur = $this->electeurRepository->search($request);
        // dd($electeur);
        $erreur = "Aucun résultat ne correspond à votre recherche sur le fichier électoral.<br>Réessayez, vérifier les informations saisies";

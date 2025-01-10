@@ -160,11 +160,13 @@ class CommoudeptController extends Controller
     }
     public function getByProvince($province){
         $commoudepts = $this->commoudeptRepository->getByProvince($province);
+        $nbCentre = $this->centrevoteRepository->countByProvince($province);
        // $commoudepts = $this->commoudeptRepository->getByProvince($province);
        // $nbCentre =  $this->centrevoteRepository->countByProvince($province);
    /*     $nbBureau =  $this->lieuvoteRepository->countByProvince($province);
         $electeurs = $this->lieuvoteRepository->sumElecteurByProvince($province);*/
       //  $data=array("commoudepts"=>$commoudepts,"nbCentre"=>$nbCentre/*,"nbbureau"=>$nbBureau,    "electeur"=>$electeurs*/);
-        return response()->json($commoudepts);
+        $data=array("commoudepts"=>$commoudepts,"nbCentre"=>$nbCentre);
+        return response()->json($data);
     }
 }

@@ -4,15 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Models\Arrondissement;
 use App\Repositories\ArrondissementRepository;
+use App\Repositories\CentrevoteRepository;
 use Illuminate\Http\Request;
 use Spatie\SimpleExcel\SimpleExcelReader;
 
 class ArrondissementController extends Controller
 {
     protected $arrondissementRepository;
+    protected $centrevoteRepository;
 
-    public function __construct(ArrondissementRepository $arrondissementRepository){
+    public function __construct(ArrondissementRepository $arrondissementRepository,CentrevoteRepository $centrevoteRepository){
         $this->arrondissementRepository =$arrondissementRepository;
+        $this->centrevoteRepository = $centrevoteRepository;
     }
 
     /**
@@ -143,7 +146,9 @@ class ArrondissementController extends Controller
 public function getByCommouDepartement($commoudepartement)
 {
     $arrondissements = $this->arrondissementRepository->getByCommouDepartement($commoudepartement);
+    $nbCentre = $this->centrevoteRepository->countByCommuneOuDepartement($commoudepartement);
 
-    return response()->json($arrondissements);
+    $data =    array("arrondissements"=>$arrondissements,"nbCentre"=>$nbCentre);
+    return response()->json($data);
 }
 }

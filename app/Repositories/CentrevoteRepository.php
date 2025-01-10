@@ -59,6 +59,23 @@ public function count()
   
     ->count();
 }
-
-
+public function countByProvince($province)
+{
+    return DB::table("centrevotes")
+    ->where("province_id",$province)
+    ->count();
+}
+public function countByCommuneOuDepartement($commoudept_id)
+{
+    return DB::table("centrevotes")
+    ->where("commoudept_id",$commoudept_id)
+    ->count();
+}
+public function countByArrondissement($arrondissement_id,$commoudept_id)
+{
+    return DB::table("centrevotes")
+    ->where("arrondissement_id",$arrondissement_id)
+    ->where("commoudept_id",$commoudept_id)
+    ->count();
+}
 }
