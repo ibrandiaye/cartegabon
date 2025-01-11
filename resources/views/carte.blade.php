@@ -178,12 +178,12 @@
                             Fichier électoral : résultat de votre recherche
                         </div>
                         @endif
-                      {{--   @if(!empty($erreur))
+                         @if(!empty($erreur))
                         <div class="alert alert-danger">
                            <center> {!! $erreur !!}</center>
                         </div>
                         @endif
- --}}
+ 
                     </div>
                     @if(!empty($electeur))
                         <div class="col-md-6">

@@ -33,6 +33,7 @@ Route::resource('centrevote', CentrevoteController::class)->middleware("auth");
 Route::post('/importer/centrevote',[CentrevoteController::class,'importExcel'])->name("importer.centrevote")->middleware("auth");
 
 Route::resource('electeur', ElecteurController::class)->middleware("auth");
+Route::post('/importer/electeur',[ElecteurController::class,'importExcel'])->name("importer.electeur")->middleware("auth");
 
 
 Route::get('/', function () {
