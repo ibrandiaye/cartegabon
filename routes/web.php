@@ -39,12 +39,18 @@ Route::post('/importer/electeur',[ElecteurController::class,'importExcel'])->nam
 Route::get('/', function () {
     $electeur = null;
     $erreur = null;
-    return view('carte',compact("electeur","erreur"));
+    $nom = null;
+    $prenom = null;
+    $nip = null;
+    return view('carte',compact("electeur","erreur","nom","prenom","nip"));
 })->name("carte");
 Route::get('/carte', function () {
     $electeur = null;
     $erreur = null;
-    return view('carte',compact("electeur","erreur"));
+    $nom = null;
+    $prenom = null;
+    $nip = null;
+    return view('carte',compact("electeur","erreur","nom","prenom","nip"));
 })->name("carte");
 Route::post('/carte',[CarteController::class,'carte'])->name("carte.search");//->middleware("auth");
 

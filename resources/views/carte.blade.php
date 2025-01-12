@@ -152,13 +152,13 @@
                 <div class="row register-form">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="text" name="nip_ipn"  value="{{ old('nip_ipn') }}" class="form-control" placeholder="NIP / IPN"  required>
+                            <input type="text" name="nip_ipn"  value="{{ old('nip_ipn') ?? $nip }}" class="form-control" placeholder="NIP / IPN"  >
 
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="nom" class="form-control" placeholder="Votre Nom *" value="{{ old('nom') }}" required/>
+                            <input type="text" name="nom" class="form-control" placeholder="Votre Nom *" value="{{ old('nom') ?? $nom }}" required/>
                         </div>
 
 
@@ -166,7 +166,7 @@
 
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" class="form-control"  name="prenom" placeholder="Votre prenom  *" value="{{ old('prenom') }}" required/>
+                            <input type="text" class="form-control"  name="prenom" placeholder="Votre prenom  *" value="{{ old('prenom') ?? $prenom }}" required/>
                         </div>
                         <input type="submit" class="btnRegister" value="Valider" />
                     </div>
