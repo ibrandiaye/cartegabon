@@ -11,6 +11,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InscriptionController;
 use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\SiegeController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*Route::get('/', function () {
@@ -83,3 +84,6 @@ Route::get('/inscriptions', function () {
 Route::get('/generer/pdf',[HomeController::class,'generatePDF'])->middleware("auth");
 
 
+Route::get('/modifier/motdepasse',[UserController::class,'modifierMotDePasse'])->name("modifier.motdepasse")->middleware(['auth']);
+Route::post('/update/password',[UserController::class,'updatePassword'])->name("user.password.update")->middleware(["auth"]);
+Route::resource("user",controller:UserController::class)->middleware(["auth"]);

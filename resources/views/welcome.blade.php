@@ -11,12 +11,12 @@ License: You must have a valid license purchased only from templatemonster to le
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Marvin I Progress</title>
-    <meta name="description" content="A responsive bootstrap 4 admin dashboard template by hencework" />
+    <title>Republique Gabonaise</title>
+    <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
-    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
+                                    <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
 
     <!-- Toggles CSS -->
     <link href="{{ asset('vendors/jquery-toggles/css/toggles.css') }}" rel="stylesheet" type="text/css">
@@ -313,7 +313,25 @@ License: You must have a valid license purchased only from templatemonster to le
                             </ul>
                         </li>
 
+                        <li class="nav-item ">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#dash_drp">
+                                <span class="feather-icon"><i data-feather="user"></i></span>
+                                <span class="nav-link-text">Utilisateur</span>
+                            </a>
+                            <ul id="dash_drp" class="nav flex-column collapse collapse-level-1">
+                                <li class="nav-item">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('user.create') }}">Ajouter</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="{{ route('user.index') }}">Liste</a>
+                                        </li>
 
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
 
                 </div>

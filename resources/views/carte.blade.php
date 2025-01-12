@@ -3,8 +3,10 @@
                             <head>
                                 <meta charset='utf-8'>
                                 <meta name='viewport' content='width=device-width, initial-scale=1'>
-                                <title>Republique Gabonaise
-                                    MINISTÈRE DE</title>
+                                <title>Republique Gabonaise</title>
+                                    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
+                                    <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
+                                
                                 <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
                                 <link href='' rel='stylesheet'>
                                 <style>
