@@ -55,7 +55,7 @@
                                 <td>{{ $electeur->date_naiss }}</td>
                                 <td>{{ $electeur->lieu_naiss }}</td>
 
-                                <td>{{ $electeur->centrevote->centrevote }}</td>
+                                <td>{{ $electeur->centrevote }}</td>
                                 <td>
                                   {{--   <a href="{{ route('electeur.edit', $electeur->id) }}" role="button" class="btn btn-primary"><i class="fa fa-edit"></i></a>
 

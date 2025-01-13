@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Imports\ELecteurImport;
 use App\Models\Electeur;
 use App\Repositories\ArrondissementRepository;
 use App\Repositories\CentrevoteRepository;
@@ -11,6 +12,7 @@ use App\Repositories\ProvinceRepository;
 use App\Repositories\SiegeRepository;
 use Illuminate\Http\Request;
 use Spatie\SimpleExcel\SimpleExcelReader;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ElecteurController extends Controller
 {
@@ -39,7 +41,7 @@ class ElecteurController extends Controller
      */
     public function index()
     {
-        $electeurs = $this->electeurRepository->getAll();
+        $electeurs = $this->electeurRepository->getPaginate(500);
         return view('electeur.index',compact('electeurs'));
     }
 
@@ -129,7 +131,7 @@ class ElecteurController extends Controller
         return redirect('electeur');
     }
 
-    public function importExcel(Request $request)
+    public function importExcel1(Request $request)
     {
         $this->validate($request, [
             'file' => 'bail|required|file|mimes:xlsx'
@@ -209,5 +211,13 @@ class ElecteurController extends Controller
     {
        $electeur = $this->electeurRepository->getBynip_ipn($nip_ipn);
         return response()->json($electeur);
+    }
+    public function importExcel(Request $request)
+    {
+        ini_set('max_execution_time', 60000); //10min
+        ini_set('memory_limit', -1);
+        Excel::import(new ELecteurImport,$request['file']);
+        //  dd($data);
+         return redirect()->back()->with('success', 'Données importées avec succès.');
     }
 }

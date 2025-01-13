@@ -15,7 +15,9 @@ class ElecteurRepository extends RessourceRepository{
         return DB::table(table: "electeurs")
         ->join("centrevotes","electeurs.centrevote_id","=","centrevotes.id")
         ->select("electeurs.*","centrevotes.centrevote")
-        ->where("electeurs.nom",$request->nom)->where("electeurs.prenom",$request->prenom)->where("electeurs.nip_ipn",$request->nip_ipn)->first();
+        ->where("electeurs.nom",$request->nom)->where("electeurs.prenom",$request->prenom)
+        ->where("electeurs.nip_ipn",$request->nip_ipn)
+        ->first();
     }
 
     public function getBynip_ipn($nip)
