@@ -31,7 +31,18 @@ class CarteController extends Controller
        $prenom = $request->prenom;
        $nip = $request->nip_ipn;
        if(empty($electeur))
+       {
         $erreur = "Aucun résultat ne correspond à votre recherche sur le fichier électoral.<br>Réessayez, vérifier les informations saisies";
+        $nom = $request->nom;
+        $prenom = $request->prenom;
+        $nip = $request->nip_ipn;
+       }
+       else
+       {
+        $nom = "";
+        $prenom = "";
+        $nip = "";
+       }
 
         return view("carte",compact("electeur","erreur","nom","prenom","nip"));
 
