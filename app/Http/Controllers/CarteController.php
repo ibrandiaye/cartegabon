@@ -21,9 +21,9 @@ class CarteController extends Controller
 
         $erreur  ="";
        
-        if(empty($request->nom) ||empty($request->prenom) || empty($request->nip_ipn) )
+        if((empty($request->nom) && empty($request->prenom)) || empty($request->nip_ipn) )
         {
-            return redirect()->back()->with(["error"=>"Toutes les Champs sont obligatoires"])->withInput();
+            return redirect()->back()->with(["error"=>" le Champ NIP et le nom ou le prenom doivent être  renseignés"])->withInput();
         }
         $electeur = $this->electeurRepository->search($request);
        // dd($electeur);

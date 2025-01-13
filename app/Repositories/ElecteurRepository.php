@@ -12,13 +12,30 @@ class ElecteurRepository extends RessourceRepository{
 
     public function search($request)
     {
-        return DB::table(table: "electeurs")
+        $requete = DB::table(table: "electeurs");
+        if($request->nip_ipn)
+        {
+            if($request->nom)
+            {
+                $requete = $requete->where("nom",$request->nom);
+            }
+            if($request->prenom)
+            {
+                $requete = $requete->where("prenom",$request->prenom);
+            }
+            return $requete->first();
+        }
+        else
+        {
+            return null;
+        }
+    /*    return DB::table(table: "electeurs")
        // ->join("centrevotes","electeurs.centrevote_id","=","centrevotes.id")
        // ->select("electeurs.*","centrevotes.centrevote")
         ->where("nom",$request->nom)
         ->where("prenom",$request->prenom)
         ->where("nip_ipn",$request->nip_ipn)
-        ->first();
+        ->first();*/
     }
 
     public function getBynip_ipn($nip)
