@@ -188,6 +188,7 @@
  
                     </div>
                     @if(!empty($electeur))
+                        @if($electeur->localisation=='nt')
                         <div class="col-md-6">
                         <h6> [ Etat Civil ]</h6>
                             NIP / IPN : <strong>{{ $electeur->nip_ipn }}</strong><br>
@@ -200,10 +201,28 @@
                             <h6> [ Données Electorales ]</h6>
                             Province : <strong>{{ $electeur->province }}</strong><br>
                             Commune ou Departement : <strong>{{ $electeur->commoudept  }}</strong><br>
-                            Arrondissement : <strong>{{ $electeur->arrondissement  }}</strong><br>
-                            Siege : <strong>{{ $electeur->siege }}</strong><br>
+                            Arrondissement ou Canton : <strong>{{ $electeur->arrondissement  }}</strong><br>
                             Centre de vote : <strong>{{ $electeur->centrevote }}</strong><br>
+                            Bureau de vote : <strong>{{ $electeur->siege }}</strong><br>
                         </div>
+                        @else
+                        <div class="col-md-6">
+                            <h6> [ Etat Civil ]</h6>
+                                NIP / IPN : <strong>{{ $electeur->nip_ipn }}</strong><br>
+                                Prenom : <strong>{{ $electeur->prenom  }}</strong><br>
+                                Nom : <strong>{{ $electeur->nom  }}</strong><br>
+                                Date de Naissance : <strong>{{ $electeur->date_naiss }}</strong><br>
+                                Lieu de Naissance : <strong>{{ $electeur->lieu_naiss }}</strong><br>
+                            </div>
+                            <div class="col-md-6">
+                                <h6> [ Données Electorales ]</h6>
+                                Continent : <strong>{{ $electeur->province }}</strong><br>
+                                Pays : <strong>{{ $electeur->commoudept  }}</strong><br>
+                                Ville : <strong>{{ $electeur->arrondissement  }}</strong><br>
+                                Centre de vote : <strong>{{ $electeur->centrevote }}</strong><br>
+                                Bureau de vote : <strong>{{ $electeur->siege }}</strong><br>
+                            </div>
+                        @endif
                     @endif
                 </div>
             </form>
