@@ -170,7 +170,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control"  name="prenom" placeholder="Votre prenom  *" value="{{ old('prenom') ?? $prenom }}" required/>
                         </div>
-                        <input type="submit" class="btnRegister" value="Valider" />
+                        <input type="submit" class="btnRegister" value="Rechercher" />
                     </div>
 
                     <div class="col-md-12">
