@@ -13,8 +13,9 @@ class ElecteurRepository extends RessourceRepository{
     public function search($request)
     {
         $requete = DB::table(table: "electeurs");
-        if($request->nip_ipn)
+        if($request->nip_ipn )
         {
+            $requete = $requete->where("nip_ipn",$request->nip_ipn);
             if($request->nom)
             {
                 $requete = $requete->where("nom",$request->nom);
