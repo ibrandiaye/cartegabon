@@ -208,7 +208,7 @@
     <script>
         url_app = '{{ config('app.url') }}';
         $("#province_id").change(function () {
-        // alert("ibra");
+         alert("ibra");
         var province_id =  $("#province_id").children("option:selected").val();
         $(".province").val(province_id);
         $(".commoudept").val("");
@@ -219,7 +219,7 @@
                 url:url_app+'/commoudept/by/province/'+province_id,
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
-
+                    console.log(date);
                     $.each(data,function(index,row){
                         //alert(row.nomd);
                         commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
@@ -260,7 +260,7 @@
         });
 
         $("#province_id_ct").change(function () {
-        // alert("ibra");
+         //alert("ibra");
         var province_id =  $("#province_id_ct").children("option:selected").val();
 
             var commoudept = "<option value=''>Veuillez selectionner</option>";
@@ -269,9 +269,9 @@
                 url:url_app+'/commoudept/by/province/'+province_id,
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
-
-                    $.each(data,function(index,row){
-                        //alert(row.nomd);
+                    console.log(data);
+                    $.each(data.commoudepts,function(index,row){
+                       
                         commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
 
                     });
@@ -292,7 +292,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.arrondissements,function(index,row){
                         //alert(row.nomd);
                         arrondissement +="<option value="+row.id+">"+row.arrondissement+"</option>";
 
@@ -311,7 +311,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.centrevotes,function(index,row){
                         //alert(row.nomd);
                         centrevote +="<option value="+row.id+">"+row.centrevote+"</option>";
 
@@ -338,7 +338,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.centrevotes,function(index,row){
                         //alert(row.nomd);
                         centrevote +="<option value="+row.id+">"+row.centrevote+"</option>";
 

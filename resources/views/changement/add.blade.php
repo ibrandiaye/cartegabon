@@ -237,11 +237,11 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
 
-                    $.each(data,function(index,row){
-                        //alert(row.nomd);
-                        commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
+                    $.each(data.commoudepts,function(index,row){
+                       
+                       commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
 
-                    });
+                   });
 
                     $("#commoudept_id").empty();
                     $("#commoudept_id").append(commoudept);
@@ -287,11 +287,11 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
 
-                    $.each(data,function(index,row){
-                        //alert(row.nomd);
-                        commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
+                    $.each(data.commoudepts,function(index,row){
+                       
+                       commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
 
-                    });
+                   });
 
                     $("#commoudept_id_ct").empty();
                     $("#commoudept_id_ct").append(commoudept);
@@ -309,7 +309,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.arrondissements,function(index,row){
                         //alert(row.nomd);
                         arrondissement +="<option value="+row.id+">"+row.arrondissement+"</option>";
 
@@ -328,7 +328,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.centrevotes,function(index,row){
                         //alert(row.nomd);
                         centrevote +="<option value="+row.id+">"+row.centrevote+"</option>";
 
@@ -383,11 +383,11 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
 
-                    $.each(data,function(index,row){
-                        //alert(row.nomd);
-                        commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
+                    $.each(data.commoudepts,function(index,row){
+                       
+                       commoudept +="<option value="+row.id+">"+row.commoudept+"</option>";
 
-                    });
+                   });
 
                     $("#commoudept_id_nv").empty();
                     $("#commoudept_id_nv").append(commoudept);
@@ -406,7 +406,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.centrevotes,function(index,row){
                         //alert(row.nomd);
                         centrevote +="<option value="+row.id+">"+row.centrevote+"</option>";
 
@@ -424,7 +424,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.arrondissements,function(index,row){
                         //alert(row.nomd);
                         arrondissement +="<option value="+row.id+">"+row.arrondissement+"</option>";
 
@@ -452,7 +452,7 @@
                 data:'_token = <?php echo csrf_token() ?>',
                 success:function(data) {
                     console.log(data)
-                    $.each(data,function(index,row){
+                    $.each(data.centrevotes,function(index,row){
                         //alert(row.nomd);
                         centrevote +="<option value="+row.id+">"+row.centrevote+"</option>";
 
