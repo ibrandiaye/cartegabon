@@ -13,10 +13,11 @@ class ElecteurRepository extends RessourceRepository{
     public function search($request)
     {
         return DB::table(table: "electeurs")
-        ->join("centrevotes","electeurs.centrevote_id","=","centrevotes.id")
-        ->select("electeurs.*","centrevotes.centrevote")
-        ->where("electeurs.nom",$request->nom)->where("electeurs.prenom",$request->prenom)
-        ->where("electeurs.nip_ipn",$request->nip_ipn)
+       // ->join("centrevotes","electeurs.centrevote_id","=","centrevotes.id")
+       // ->select("electeurs.*","centrevotes.centrevote")
+        ->where("nom",$request->nom)
+        ->where("prenom",$request->prenom)
+        ->where("nip_ipn",$request->nip_ipn)
         ->first();
     }
 
