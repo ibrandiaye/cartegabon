@@ -24,6 +24,7 @@ class ELecteurImport implements ToArray, WithHeadingRow
                 "arrondissement"=>$electeur['arrondissement'],
                 "siege"=>$electeur['siege'],
                 "centrevote"=>$electeur['centrevote'],
+                "localisation"=>$electeur['localisation']
             ]);
         }
 
