@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Repositories\CentrevoteRepository;
 use App\Repositories\ChangementRepository;
+use App\Repositories\ElectRepository;
 use App\Repositories\InscriptionRepository;
 use App\Repositories\ProvinceRepository;
 use Barryvdh\DomPDF\Facade\Pdf;
@@ -21,9 +22,11 @@ class HomeController extends Controller
      protected $inscriptionRepository;
      protected $changementRepository;
      protected $provinceRepository;
+     protected $elecRepository;
 
     public function __construct(CentrevoteRepository $centrevoteRepository,InscriptionRepository $inscriptionRepository,
-    ChangementRepository $changementRepository,ProvinceRepository $provinceRepository)
+    ChangementRepository $changementRepository,ProvinceRepository $provinceRepository,
+    ElectRepository $electRepository)
     {
         $this->middleware('auth');
 
@@ -31,6 +34,7 @@ class HomeController extends Controller
         $this->inscriptionRepository = $inscriptionRepository;
         $this->changementRepository = $changementRepository;
         $this->provinceRepository = $provinceRepository;
+        $this->elecRepository = $electRepository;
 
     }
 
@@ -42,11 +46,11 @@ class HomeController extends Controller
     public function index()
     {
         $nbCentrevote  = $this->centrevoteRepository->count();
-        $nbInscription = $this->inscriptionRepository->count();
-        $nbChangement = $this->changementRepository->count();
+        $nbelec = $this->elecRepository->count();
+       // $nbChangement = $this->changementRepository->count();
         $provinces = $this->provinceRepository->getAllOnLy();
-        return view('home',compact("nbCentrevote","nbInscription",
-        "nbChangement",'provinces'));
+        return view('home',compact("nbCentrevote","nbelec",
+        'provinces'));
     }
     public function generatePDF()
     {

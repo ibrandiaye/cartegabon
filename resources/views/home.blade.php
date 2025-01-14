@@ -17,7 +17,7 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <span class="d-block font-12 font-weight-500 text-dark text-uppercase mb-5">Nombre de centre de vote</span>
-                            <span class="d-block display-6 font-weight-400 text-dark">{{$nbCentrevote}}</span>
+                            <span class="d-block display-6 font-weight-400 text-dark" id="nbCentre">{{$nbCentrevote}}</span>
                         </div>
                        
                     </div>
@@ -29,8 +29,8 @@
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <span class="d-block font-12 font-weight-500 text-dark text-uppercase mb-5">Nombre D'inscription</span>
-                            <span class="d-block display-6 font-weight-400 text-dark">{{$nbInscription}}</span>
+                            <span class="d-block font-12 font-weight-500 text-dark text-uppercase mb-5">Nombre de bureau</span>
+                            <span class="d-block display-6 font-weight-400 text-dark" id="nbbureau"> 0</span>
                         </div>
                        
                     </div>
@@ -42,8 +42,8 @@
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
-                            <span class="d-block font-12 font-weight-500 text-dark text-uppercase mb-5">Nombre de Modification</span>
-                            <span class="d-block display-6 font-weight-400 text-dark">{{$nbChangement}}</span>
+                            <span class="d-block font-12 font-weight-500 text-dark text-uppercase mb-5">Nombre d'électeurs</span>
+                            <span class="d-block display-6 font-weight-400 text-dark" id="nbelecteur">0</span>
                         </div>
                         <div>
                           
@@ -56,9 +56,9 @@
     <div class="row">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">
+               {{--  <div class="card-header">
                  Nombre de Centre de vote : <span id="nbCentre"></span>
-                </div>
+                </div> --}}
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-3">

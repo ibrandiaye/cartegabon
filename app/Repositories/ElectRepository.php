@@ -48,5 +48,36 @@ class ElectRepository extends RessourceRepository{
         ->first();
 
     }
+    public function count()
+{
+    return DB::table("elects")
+  
+    ->count();
+}
+public function countByProvince($province)
+{
+    return DB::table("elects")
+    ->where("province_id",$province)
+    ->count();
+}
+public function countByCommuneOuDepartement($commoudept_id)
+{
+    return DB::table("elects")
+    ->where("commoudept_id",$commoudept_id)
+    ->count();
+}
+public function countByArrondissement($arrondissement_id,$commoudept_id)
+{
+    return DB::table("elects")
+    ->where("arrondissement_id",$arrondissement_id)
+    ->where("commoudept_id",$commoudept_id)
+    ->count();
+}
+public function countByCentrevote($centrevote)
+{
+    return DB::table("elects")
+    ->where("centrevote_id",$centrevote)
+    ->count();
+}
 
 }
