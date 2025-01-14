@@ -16,7 +16,7 @@ class CentrevoteImport implements ToArray, WithHeadingRow
     public function array(array $data)
     {
         $provinces        = DB::table("provinces")->get();;
-        $sieges           = DB::table("sieges")->get();;
+       // $sieges           = DB::table("sieges")->get();;
         $arrondissements  = DB::table("arrondissements")->get();;
         $commoudepts      = DB::table("commoudepts")->get();;
 
@@ -56,12 +56,12 @@ class CentrevoteImport implements ToArray, WithHeadingRow
 
 
 
-            foreach ($sieges as $key => $value) {
+        /*    foreach ($sieges as $key => $value) {
                 if($value->siege==$commoudept['siege'])
                 {
                     $siege_id = $value->id;
                 }
-            }
+            }*/
             foreach ($arrondissements as $key => $value) {
                 if($value->arrondissement==$commoudept['arrondissement'])
                 {
@@ -73,7 +73,7 @@ class CentrevoteImport implements ToArray, WithHeadingRow
             Centrevote::create([
                 "centrevote"=>$commoudept['centrevote'],
                 "province_id"=>$province_id,
-                "siege_id"=>$siege_id,
+              //  "siege_id"=>$siege_id,
                 "commoudept_id"=>$commoudept_id,
                 "arrondissement_id"=>$arrondissement_id,
             ]);

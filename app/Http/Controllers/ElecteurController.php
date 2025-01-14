@@ -39,10 +39,16 @@ class ElecteurController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $electeurs = $this->electeurRepository->getPaginate(500);
-        return view('electeur.index',compact('electeurs'));
+       // $electeurs = $this->electeurRepository->getPaginate(n: 20);
+      // dd("ok");
+      $search = $request->input('search');
+      $electeurs = ELecteur::where('nip_ipn', 'like', "%$search%")
+                  ->paginate(10)
+                  ->appends(['search' => $search]);
+  
+        return view('electeur.index',compact('electeurs','search'));
     }
 
     public function allElecteurApi(){

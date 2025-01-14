@@ -6,6 +6,7 @@ use App\Http\Controllers\CentrevoteController;
 use App\Http\Controllers\ChangementController;
 use App\Http\Controllers\CommetArrondissementController;
 use App\Http\Controllers\CommoudeptController;
+use App\Http\Controllers\ElectController;
 use App\Http\Controllers\ElecteurController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InscriptionController;
@@ -87,3 +88,7 @@ Route::get('/generer/pdf',[HomeController::class,'generatePDF'])->middleware("au
 Route::get('/modifier/motdepasse',[UserController::class,'modifierMotDePasse'])->name("modifier.motdepasse")->middleware(['auth']);
 Route::post('/update/password',[UserController::class,'updatePassword'])->name("user.password.update")->middleware(["auth"]);
 Route::resource("user",controller:UserController::class)->middleware(["auth"]);
+
+
+Route::resource('elect', ElectController::class)->middleware("auth");
+Route::post('/importer/elect',[ElectController::class,'importExcel'])->name("importer.elect")->middleware("auth");

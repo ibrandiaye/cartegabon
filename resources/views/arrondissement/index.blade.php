@@ -31,7 +31,7 @@
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalform2">
                     importer
                 </button>
-                <table id="example1" class="table table-bordered table-responsive-md table-striped text-center">
+                <table id="datable_3" class="table table-bordered table-responsive-md table-striped text-center">
                     <thead>
                         <tr>
                             <th>#</th>

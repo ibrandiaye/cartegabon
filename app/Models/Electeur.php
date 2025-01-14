@@ -11,8 +11,8 @@ class Electeur extends Model
         'arrondissement','siege','centrevote','localisation'
     ];
 
-    public function centrevote()
+    /*public function centrevote()
     {
         return $this->belongsTo(Centrevote::class);
-    }
+    }*/
 }

@@ -78,4 +78,12 @@ public function countByArrondissement($arrondissement_id,$commoudept_id)
     ->where("commoudept_id",$commoudept_id)
     ->count();
 }
+public function getOneByProvinceAndCommuneOuDepAndcentre($province,$comoudep,$nom)
+{
+    return DB::table("centrevotes")
+    ->where("province_id",$province)
+    ->where("commoudept_id",$comoudep)
+    ->where("centrevote",$nom)
+    ->first();
+}
 }

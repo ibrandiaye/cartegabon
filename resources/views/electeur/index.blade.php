@@ -3,6 +3,12 @@
 
 
 @section('content')
+<style>
+#pag p {
+    padding: 10px;
+}
+
+</style>
 <nav class="hk-breadcrumb" aria-label="breadcrumb">
     <ol class="breadcrumb breadcrumb-light bg-transparent">
         <li class="breadcrumb-item"><a href="#">Province</a></li>
@@ -29,10 +35,22 @@
         <div class="card ">
             <div class="card-header">LISTE D'ENREGISTREMENT DES ELECTEURS</div>
                 <div class="card-body">
-                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalform2">
-                        importer
-                    </button>
-                    <table id="datable_3" class="table table-bordered table-responsive-md table-striped text-center">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalform2">
+                                importer
+                            </button>
+                        </div>
+                        <div class="col-md-8"> 
+                            <form method="GET" action="{{ route('electeur.index') }}">
+                                <input type="text" name="search" value="{{ request('search') }}" placeholder="Rechercher Par nin...">
+                                <button type="submit">Rechercher</button>
+                            </form>
+                        </div>
+                    </div>
+                   
+                   
+                    <table id="" class="table table-bordered table-responsive-md table-striped text-center">
                         <thead>
                             <tr>
                                 <th>#</th>
@@ -71,6 +89,10 @@
 
                         </tbody>
                     </table>
+                   
+                </div>
+                <div id="pag">
+                    {{ $electeurs->links() }}
                 </div>
         </div>
     </div>

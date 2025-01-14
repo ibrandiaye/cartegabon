@@ -332,6 +332,27 @@ License: You must have a valid license purchased only from templatemonster to le
                                 </li>
                             </ul>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#elect">
+                                <span class="feather-icon"><i data-feather="user"></i></span>
+                                <span class="nav-link-text">Elect</span>
+                            </a>
+                            <ul id="elect" class="nav flex-column collapse collapse-level-1">
+                                <li class="nav-item">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('elect.create') }}">Enregistrer Electeur</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('elect.index') }}">Liste  Electeur</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
 
                 </div>

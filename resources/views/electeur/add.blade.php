@@ -15,7 +15,7 @@
 <!-- Container -->
 <div class="container">
 
-    <form action="{{ route('electeur.store') }}" method="POST">
+    <form action="{{ route('elect.store') }}" method="POST">
         @csrf
         <div class="card">
             <div class="card-header  text-center">FORMULAIRE D'ENREGISTREMENT D'UNE DEPARTEMENT</div>
