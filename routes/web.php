@@ -92,3 +92,13 @@ Route::resource("user",controller:UserController::class)->middleware(["auth"]);
 
 Route::resource('elect', ElectController::class)->middleware("auth");
 Route::post('/importer/elect',[ElectController::class,'importExcel'])->name("importer.elect")->middleware("auth");
+
+
+
+Route::get('/elect/by/province/{province}',[ElectController::class,'countByProvince']);
+
+Route::get('/elect/by/commoudept/{commoudept}',[ElectController::class,'countByCommuneOuDepartement']);
+
+Route::get('/elect/by/arrondissement/{commoudept}/{arrondissement}',[ElectController::class,'countByArrondissement']);
+
+Route::get('/elect/by/centrevote/{centrevote}',[ElectController::class,'countByCentrevote']);

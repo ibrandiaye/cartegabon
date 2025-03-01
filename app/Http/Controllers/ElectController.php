@@ -244,4 +244,25 @@ class ElectController extends Controller
         //  dd($data);
          return redirect()->back()->with('success', 'Données importées avec succès.');
     }
+
+    public function countByProvince($province)
+    {
+        $nb = $this->electRepository->countByProvince($province);
+        return response()->json($nb);
+    }
+    public function countByCommuneOuDepartement($commoudept)
+    {
+        $nb = $this->electRepository->countByCommuneOuDepartement($commoudept);
+        return response()->json($nb);
+    }
+    public function countByArrondissement($commoudept,$arrondissement)
+    {
+        $nb = $this->electRepository->countByArrondissement($arrondissement,$commoudept);
+        return response()->json($nb);
+    }
+    public function countByCentrevote($centrevote)
+    {
+        $nb = $this->electRepository->countByCentrevote($centrevote);
+        return response()->json($nb);
+    }
 }

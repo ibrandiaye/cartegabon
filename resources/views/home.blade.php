@@ -11,7 +11,7 @@
 <!-- Container -->
 <div class="container">
     <div class="hk-row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="card card-sm">
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+       {{--  <div class="col-md-4">
             <div class="card card-sm">
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between">
@@ -36,14 +36,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
+        </div> --}}
+        <div class="col-md-6">
             <div class="card card-sm">
                 <div class="card-body">
                     <div class="d-flex align-items-center justify-content-between">
                         <div>
                             <span class="d-block font-12 font-weight-500 text-dark text-uppercase mb-5">Nombre d'électeurs</span>
-                            <span class="d-block display-6 font-weight-400 text-dark" id="nbelecteur">0</span>
+                            <span class="d-block display-6 font-weight-400 text-dark" id="nbelecteur">{{$nbelec}}</span>
                         </div>
                         <div>
                           
@@ -127,11 +127,11 @@
                  //   $("#commoudept_id").append(commoudept);
                 }
             });
+           
         });
         $("#commoudept_id").change(function () {
             $("#rts").empty();
             $("#centrevote_id").empty();
-            $("#lieuvote_id").empty();
             var commoudept_id =  $("#commoudept_id").children("option:selected").val();
             $(".commoudept").val(commoudept_id);
             $(".arrondissement").val("");
@@ -182,6 +182,16 @@
                     $("#commoudept_id_ct").append(commoudept);
                 }
             });
+            $.ajax({
+                type:'GET',
+                url:url_app+'/elect/by/province/'+province_id,
+                data:'_token = <?php echo csrf_token() ?>',
+                success:function(data) {
+                    console.log(data);
+                    $("#nbelecteur").empty();
+                   $("#nbelecteur").append(data);
+                }
+            });
         });
         $("#commoudept_id_ct").change(function () {
 
@@ -227,6 +237,16 @@
                     $("#centrevote_id_ct").append(centrevote);
                 }
             });
+            $.ajax({
+                type:'GET',
+                url:url_app+'/elect/by/commoudept/'+commoudept_id_ct,
+                data:'_token = <?php echo csrf_token() ?>',
+                success:function(data) {
+                    console.log(data);
+                    $("#nbelecteur").empty();
+                   $("#nbelecteur").append(data);
+                }
+            });
         });
 
 
@@ -256,9 +276,30 @@
                     $("#centrevote_id_ct").append(centrevote);
                 }
             });
+            $.ajax({
+                type:'GET',
+                url:url_app+'/elect/by/arrondissement/'+commoudept_id_ct+'/'+arrondissement_id_ct,
+                data:'_token = <?php echo csrf_token() ?>',
+                success:function(data) {
+                    console.log(data);
+                    $("#nbelecteur").empty();
+                   $("#nbelecteur").append(data);
+                }
+            });
         });
         $("#centrevote_id_ct").change(function () {
-            $("#nbCentre").empty();
+            var centrevote_id_ct =  $("#centrevote_id_ct").children("option:selected").val();
+
+            $.ajax({
+                type:'GET',
+                url:url_app+'/elect/by/centrevote/'+centrevote_id_ct,
+                data:'_token = <?php echo csrf_token() ?>',
+                success:function(data) {
+                    console.log(data);
+                    $("#nbelecteur").empty();
+                   $("#nbelecteur").append(data);
+                }
+            });
         });
 
         $("#btnnumelec").click(function () {
