@@ -36,23 +36,26 @@
             <div class="card-header">LISTE D'ENREGISTREMENT DES ELECTEURS</div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalform2">
                                 <i class="fa fa-file"></i> Importer Electeurs
                             </button>
                         </div>
-                        <div class="col-md-4">
-                           {{--  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalform3">
-                                Modifications Electeurs
-                            </button> --}}
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalform3">
+                                <i class="fa fa-file"></i> Modifications Electeurs
+                            </button> 
+                        </div>    
+                        <div class="col-md-2">
+                           {{--  --}}
 
-                            <a class="btn btn-danger" href="#" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider la table</button></a>
+                            <a class="btn btn-danger" href="#" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider </button></a>
 
                         </div>
                         <div class="col-md-4">
                             <form method="GET" action="{{ route('electeur.index') }}">
                                 <input type="text" name="search" value="{{ request('search') }}" placeholder="Rechercher Par nin...">
-                                <button type="submit">Rechercher</button>
+                                <button type="submit" class="btn btn-info">Rechercher</button>
                             </form>
                         </div>
                     </div>
