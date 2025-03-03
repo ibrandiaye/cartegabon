@@ -47,7 +47,7 @@ class ElectController extends Controller
       $elects = Elect::where('nip_ipn', 'like', "%$search%")
                   ->paginate(10)
                   ->appends(['search' => $search]);
-  
+
         return view('elect.index',compact('elects','search'));
     }
 
@@ -139,9 +139,9 @@ class ElectController extends Controller
 
     public function importExcel(Request $request)
     {
-       
-        
-        ini_set('max_execution_time', 60000); //10min
+
+
+        ini_set('max_execution_time', 99999999); //10min
         ini_set('memory_limit', -1);
         $this->validate($request, [
             'file' => 'bail|required|file|mimes:xlsx'
@@ -155,7 +155,7 @@ class ElectController extends Controller
 
         // On récupère le contenu (les lignes) du fichier
         $rows = $reader->getRows();
-       
+
 
         // $rows est une Illuminate\Support\LazyCollection
 

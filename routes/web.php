@@ -36,6 +36,7 @@ Route::post('/importer/centrevote',[CentrevoteController::class,'importExcel'])-
 
 Route::resource('electeur', ElecteurController::class)->middleware("auth");
 Route::post('/importer/electeur',[ElecteurController::class,'importExcel'])->name("importer.electeur")->middleware("auth");
+Route::post('/update/import/electeur',[ElecteurController::class,'updateExcel'])->name("update.import.electeur")->middleware("auth");
 
 
 Route::get('/', function () {
@@ -78,7 +79,7 @@ Route::get('/electeur/by/nip_ipn/{nip_ipn}',[ElecteurController::class,'getBynip
 
 
 Route::get('/inscriptions', function () {
-    
+
     return view('inscription');
 });
 
@@ -102,3 +103,10 @@ Route::get('/elect/by/commoudept/{commoudept}',[ElectController::class,'countByC
 Route::get('/elect/by/arrondissement/{commoudept}/{arrondissement}',[ElectController::class,'countByArrondissement']);
 
 Route::get('/elect/by/centrevote/{centrevote}',[ElectController::class,'countByCentrevote']);
+
+
+
+Route::get('/lire_cni', function () {
+
+    return view('test');
+});

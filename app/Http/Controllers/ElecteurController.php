@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Imports\ELecteurImport;
+use App\Imports\updateElecteurImport;
 use App\Models\Electeur;
 use App\Repositories\ArrondissementRepository;
 use App\Repositories\CentrevoteRepository;
@@ -47,7 +48,7 @@ class ElecteurController extends Controller
       $electeurs = ELecteur::where('nip_ipn', 'like', "%$search%")
                   ->paginate(10)
                   ->appends(['search' => $search]);
-  
+
         return view('electeur.index',compact('electeurs','search'));
     }
 
@@ -220,10 +221,21 @@ class ElecteurController extends Controller
     }
     public function importExcel(Request $request)
     {
-        ini_set('max_execution_time', 60000); //10min
+        ini_set('max_execution_time', 909999999); //10min
         ini_set('memory_limit', -1);
         Excel::import(new ELecteurImport,$request['file']);
         //  dd($data);
          return redirect()->back()->with('success', 'Données importées avec succès.');
     }
+
+    public function updateExcel(Request $request)
+    {
+        ini_set('max_execution_time', 909999999); //10min
+        ini_set('memory_limit', -1);
+        Excel::import(new updateElecteurImport,$request['file']);
+        //  dd($data);
+         return redirect()->back()->with('success', 'Données importées avec succès.');
+    }
+
+
 }

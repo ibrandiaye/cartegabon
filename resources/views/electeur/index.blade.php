@@ -38,18 +38,23 @@
                     <div class="row">
                         <div class="col-md-4">
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalform2">
-                                importer
+                                Nouveaux Electeurs
                             </button>
                         </div>
-                        <div class="col-md-8"> 
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalform3">
+                                Modifications Electeurs
+                            </button>
+                        </div>
+                        <div class="col-md-4">
                             <form method="GET" action="{{ route('electeur.index') }}">
                                 <input type="text" name="search" value="{{ request('search') }}" placeholder="Rechercher Par nin...">
                                 <button type="submit">Rechercher</button>
                             </form>
                         </div>
                     </div>
-                   
-                   
+
+
                     <table id="" class="table table-bordered table-responsive-md table-striped text-center">
                         <thead>
                             <tr>
@@ -89,7 +94,7 @@
 
                         </tbody>
                     </table>
-                   
+
                 </div>
                 <div id="pag">
                     {{ $electeurs->links() }}
@@ -107,7 +112,7 @@
                             <form action="{{ route('importer.electeur') }}" method="POST" enctype="multipart/form-data">
                                 @csrf
                             <div class="modal-header">
-                                <h5 class="modal-title">Importer Electeur</h5>
+                                <h5 class="modal-title">Importer Nouveaux Electeurs</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -129,5 +134,36 @@
                             </form>
                         </div>
                     </div>
-                </div> 
+                </div>
+
+
+                <div class="modal fade" id="exampleModalform3" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <form action="{{ route('update.import.electeur') }}" method="POST" enctype="multipart/form-data">
+                                @csrf
+                            <div class="modal-header">
+                                <h5 class="modal-title">Importer Modification Electeurs</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group no-margin">
+                                            <label for="field-7" class="control-label">Document</label>
+                                            <input type="file" name="file" class="form-control" required>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                                <button type="submit" class="btn btn-primary">Valider</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 @endsection
