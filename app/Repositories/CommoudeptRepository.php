@@ -18,7 +18,7 @@ class CommoudeptRepository extends RessourceRepository{
         return DB::table("commoudepts")
         ->where("province_id",$province)
         ->orderBy("commoudept","asc")
-
+        ->distinct("commoudept")
         ->get();
 }
 public function getAllOnLy(){

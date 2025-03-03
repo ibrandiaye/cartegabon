@@ -41,10 +41,10 @@ class ElecteurRepository extends RessourceRepository{
 
     public function getBynip_ipn($nip)
     {
-        return DB::table(table: "electeurs")
-        ->join("centrevotes","electeurs.centrevote_id","=","centrevotes.id")
-        ->select("electeurs.*","centrevotes.centrevote","centrevotes.province_id","centrevotes.commoudept_id","centrevotes.arrondissement_id")
-        ->where("electeurs.nip_ipn",$nip)
+        return DB::table(table: "elects")
+        ->join("centrevotes","elects.centrevote_id","=","centrevotes.id")
+        ->select("elects.*","centrevotes.centrevote","centrevotes.province_id","centrevotes.commoudept_id","centrevotes.arrondissement_id")
+        ->where("elects.nip_ipn",$nip)
         ->first();
 
     }

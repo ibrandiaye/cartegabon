@@ -24,6 +24,8 @@ class CentrevoteRepository extends RessourceRepository{
         return DB::table("centrevotes")
         ->where("commoudept_id",$commoudept)
         ->orderBy("centrevote","asc")
+        ->distinct('centrevote')
+
         ->get();
     }
     public function getByArrondissement($arrondissement,$commoudept){
@@ -31,6 +33,7 @@ class CentrevoteRepository extends RessourceRepository{
         ->where("arrondissement_id",$arrondissement)
         ->where("commoudept_id",$commoudept)
         ->orderBy("centrevote","asc")
+        ->distinct('centrevote')
         ->get();
     }
 public function getAllOnly(){

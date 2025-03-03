@@ -377,6 +377,8 @@
         var province_id =  $("#province_id_nv").children("option:selected").val();
 
             var commoudept = "<option value=''>Veuillez selectionner</option>";
+            $("#centrevote_id_nv").empty();
+
             $.ajax({
                 type:'GET',
                 url:url_app+'/commoudept/by/province/'+province_id,
@@ -391,12 +393,16 @@
 
                     $("#commoudept_id_nv").empty();
                     $("#commoudept_id_nv").append(commoudept);
+                    $("#centrevote_id_nv").empty();
+
+                    
                 }
             });
         });
         $("#commoudept_id_nv").change(function () {
 
             var commoudept_id_nv =  $("#commoudept_id_nv").children("option:selected").val();
+            $("#centrevote_id_nv").empty();
 
             var arrondissement = "<option value=''>Veuillez selectionner</option>";
             var centrevote = "<option value=''>Veuillez selectionner</option>";
@@ -444,6 +450,7 @@
 
             var arrondissement_id_nv =  $("#arrondissement_id_nv").children("option:selected").val();
             var commoudept_id_nv =  $("#commoudept_id_nv").children("option:selected").val();
+            $("#centrevote_id_nv").empty();
 
             var centrevote = "<option value=''>Veuillez selectionner</option>";
             $.ajax({
