@@ -37,14 +37,17 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalform2">
-                                Nouveaux Electeurs
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalform2">
+                                <i class="fa fa-file"></i> Importer Electeurs
                             </button>
                         </div>
                         <div class="col-md-4">
-                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalform3">
+                           {{--  <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalform3">
                                 Modifications Electeurs
-                            </button>
+                            </button> --}}
+
+                            <a class="btn btn-danger" href="#" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider la table</button></a>
+
                         </div>
                         <div class="col-md-4">
                             <form method="GET" action="{{ route('electeur.index') }}">
