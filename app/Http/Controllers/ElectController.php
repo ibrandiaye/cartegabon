@@ -138,6 +138,84 @@ class ElectController extends Controller
     }
 
     public function importExcel(Request $request)
+{
+    ini_set('max_execution_time', 99999999);
+    ini_set('memory_limit', -1);
+
+    $this->validate($request, [
+        'file' => 'bail|required|file|mimes:xlsx'
+    ]);
+
+    $fichier = $request->file->move(public_path(), $request->file->hashName());
+    $reader = SimpleExcelReader::create($fichier);
+    $rows = $reader->getRows(); // LazyCollection
+
+    // ⚡ CHARGER EN MÉMOIRE POUR ÉVITER LES REQUÊTES MULTIPLES
+    $provinces = $this->provinceRepository->getAll()->keyBy('province');
+    $sieges = $this->siegeRepository->getAllOnLy()->keyBy('siege');
+    $arrondissements = $this->arrondissementRepository->getAllOnLy()->keyBy('arrondissement');
+
+    $electeurs = [];
+    $batchSize = 1000; // Réduction de la taille du lot
+
+    foreach ($rows as $elect) {
+        $province_id = $provinces[$elect['province']]->id ?? null;
+        $siege_id = $sieges[$elect['siege']]->id ?? null;
+        $arrondissement_id = $arrondissements[$elect['arrondissement']]->id ?? null;
+
+        $commoudept_id = null;
+        if ($province_id) {
+            foreach ($provinces[$elect['province']]->commoudepts as $value) {
+                if ($value->commoudept == $elect["commoudept"]) {
+                    $commoudept_id = $value->id;
+                    break;
+                }
+            }
+        }
+
+        $centrevote = $this->centrevoteRepository->getOneByProvinceAndCommuneOuDepAndcentre(
+            $province_id,
+            $commoudept_id,
+            $elect['centrevote']
+        );
+
+        $electeurs[] = [
+            "centrevote" => $elect['centrevote'],
+            "province_id" => $province_id,
+            "siege_id" => $siege_id,
+            "commoudept_id" => $commoudept_id,
+            "arrondissement_id" => $arrondissement_id,
+            "centrevote_id" => $centrevote->id ?? null,
+            "nip_ipn" => trim($elect['nip_ipn']),
+            "nom" => $elect['nom'],
+            "prenom" => $elect['prenom'],
+            "date_naiss" => $elect['date_naiss'],
+            "lieu_naiss" => $elect['lieu_naiss'],
+            "province" => $elect['province'],
+            "commoudept" => $elect['commoudept'],
+            "siege" => $elect['siege'],
+        ];
+
+        // ⚡ INSÉRER PAR LOTS DE 1000 POUR ÉVITER L'ERREUR 1390
+        if (count($electeurs) >= $batchSize) {
+            Elect::insert($electeurs);
+            $electeurs = [];
+        }
+    }
+
+    // ⚡ INSÉRER LES DONNÉES RESTANTES
+    if (!empty($electeurs)) {
+        Elect::insert($electeurs);
+    }
+
+
+    $reader->close();
+   // unlink($fichier);
+
+    return redirect()->back()->with('success', 'Données importées avec succès.');
+}
+
+    public function importExcel2(Request $request)
     {
 
 
