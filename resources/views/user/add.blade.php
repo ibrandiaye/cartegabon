@@ -61,9 +61,16 @@
                                         <input id="password-confirm" type="password"  name="password_confirmation" value="{{ old('name') }}" class="form-control"required>
                                     </div>
                                 </div>
+                                <div class="col-lg-6 offset-lg-3">
+                                    <label>Role</label>
+                                    <select class="form-control" name="role" required >
+                                        <option value="">Veuiller Selectionner </option>
+                                        <option value="admin">admin</option>
+                                        <option value="superviseur">superviseur</option>
+                                    </select>
+                                </div>
 
 
-                                  
                                 <div>
                                     <br>
                                     <center>

@@ -50,7 +50,7 @@ class UserController extends Controller
         'name' => 'required',
         'email' => 'required|email',
         'password' => 'required|string|min:8|confirmed|regex:/[a-z]/|regex:/[A-Z]/|regex:/[0-9]/|regex:/[@$!%*?&]/',
-
+        'role' => 'required',
         //'g-recaptcha-response' => 'required|captcha',
         ], [
             'password.required' => 'Le mot de passe est obligatoire.',
@@ -64,6 +64,7 @@ class UserController extends Controller
             'name' => $request['name'],
             'email' => $request['email'],
             'password' => Hash::make($request['password']),
+            'role' => $request['role'],
         ]);
         return redirect('user');
 
@@ -134,7 +135,7 @@ class UserController extends Controller
                 'password.confirmed' => 'La confirmation du mot de passe ne correspond pas.',
                 'password.regex' => 'Le mot de passe doit contenir au moins une lettre minuscule, une lettre majuscule, un chiffre et un caractère spécial.',
             ]);
-       
+
             User::where("id",$request->id)->update(["password"=>Hash::make($request['password'])]);
             return redirect(to: 'user');
 

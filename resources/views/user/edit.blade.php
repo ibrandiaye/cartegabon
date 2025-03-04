@@ -23,6 +23,16 @@
         </ul>
     </div>
 @endif
+@if ($message = Session::get('success'))
+<div class="alert alert-success">
+    <p>{{ $message }}</p>
+</div>
+@endif
+@if ($message = Session::get('error'))
+<div class="alert alert-danger">
+    <p>{{ $message }}</p>
+</div>
+@endif
         {!! Form::model($user, ['method'=>'PATCH','route'=>['user.update', $user->id]]) !!}
             @csrf
              <div class="card ">
@@ -52,7 +62,14 @@
                                     </div>
                                 </div>
 
-                               
+                                <div class="col-lg-6">
+                                    <label>Role</label>
+                                    <select class="form-control" name="role" required >
+                                        <option value="">Veuiller Selectionner </option>
+                                        <option value="admin"  {{$user->role=="admin" ? 'selected' : '' }} >admin</option>
+                                        <option value="superviseur" {{$user->role=="superviseur" ? 'selected' : '' }}>superviseur</option>
+                                    </select>
+                                </div>
 
                                 <div>
                                     <center>

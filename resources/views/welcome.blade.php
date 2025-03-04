@@ -118,13 +118,13 @@ License: You must have a valid license purchased only from templatemonster to le
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#dash_drp">
+                            <a class="nav-link" href="javascript:void(0);" data-toggle="collapse" data-target="#dash_drpp">
                                 <span class="material-icons">
                                     location_city
                                     </span>
                                 <span class="nav-link-text"> &nbsp;&nbsp;Province</span>
                             </a>
-                            <ul id="dash_drp" class="nav flex-column collapse collapse-level-1">
+                            <ul id="dash_drpp" class="nav flex-column collapse collapse-level-1">
                                 <li class="nav-item">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">

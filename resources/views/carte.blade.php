@@ -6,7 +6,7 @@
                                 <title>Republique Gabonaise</title>
                                     <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
                                     <link rel="icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
-                                
+
                                 <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
                                 <link href='' rel='stylesheet'>
                                 <style>
@@ -177,7 +177,7 @@
                         <br>
                         @if(!empty($electeur))
                         <div class="alert alert-success">
-                            Fichier électoral : résultat de votre recherche
+                            Liste électorale provisoire 2025 : résultat de votre recherche
                         </div>
                         @endif
                          @if(!empty($erreur))
@@ -185,7 +185,7 @@
                            <center> {!! $erreur !!}</center>
                         </div>
                         @endif
- 
+
                     </div>
                     @if(!empty($electeur))
                         @if($electeur->localisation=='nt')
