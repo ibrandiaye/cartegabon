@@ -49,7 +49,7 @@
                         <div class="col-md-2">
                            {{--  --}}
 
-                            <a class="btn btn-danger" href="#" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider </button></a>
+                            <a class="btn btn-danger" href="{{ route('vider.electeur') }}" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider </button></a>
 
                         </div>
                         <div class="col-md-4">
