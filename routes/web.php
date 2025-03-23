@@ -114,3 +114,5 @@ Route::get('/lire_cni', function () {
 
 
 Route::get('/vider/electeur',[ElecteurController::class,'vider'])->name("vider.electeur");
+
+Route::get('/vider/elect',[ElectController::class,'vider'])->name("vider.elect");

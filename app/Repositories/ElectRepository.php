@@ -80,4 +80,9 @@ public function countByCentrevote($centrevote)
     ->count();
 }
 
+public function truncateTable()
+    {
+        return DB::table('elects')->truncate();
+    }
+
 }
