@@ -135,7 +135,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                                <button type="submit" class="btn btn-primary">Valider</button>
+                                <button type="submit" id="btn" class="btn btn-primary">Valider</button>
                             </div>
                             </form>
                         </div>
@@ -172,4 +172,25 @@
                         </div>
                     </div>
                 </div>
+@endsection
+@section("script")
+
+<script type="text/javascript">
+   
+
+        document.getElementById('btn').addEventListener('click', function(event) {
+
+            var form = document.getElementById('form'); // Remplacez 'votreFormulaire' par l'ID de votre formulaire
+            if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+            } else {
+                this.setAttribute('disabled', 'disabled');
+                this.innerText = 'Enregistrement en cours...';
+                form.submit();
+            }
+            form.classList.add('was-validated');
+        });
+    </script>
+
 @endsection
