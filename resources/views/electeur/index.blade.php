@@ -115,7 +115,7 @@
                 <div class="modal fade" id="exampleModalform2" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <form action="{{ route('importer.electeur') }}" method="POST" enctype="multipart/form-data">
+                            <form action="{{ route('importer.electeur') }}" method="POST" enctype="multipart/form-data" id="form">
                                 @csrf
                             <div class="modal-header">
                                 <h5 class="modal-title">Importer Nouveaux Electeurs</h5>
