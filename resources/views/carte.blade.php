@@ -177,7 +177,7 @@
                         <br>
                         @if(!empty($electeur))
                         <div class="alert alert-success">
-                            Liste électorale provisoire 2025 : résultat de votre recherche
+                            Liste electorale de consultation 2025 : résultat de votre recherche
                         </div>
                         @endif
                          @if(!empty($erreur))
