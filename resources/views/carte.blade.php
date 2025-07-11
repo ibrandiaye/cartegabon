@@ -143,7 +143,7 @@
         </div>
         <div class="col-md-9 register-right">
 
-            <h3 class="register-heading">Consultation du fichier électoral</h3>
+            <h3 class="register-heading">Liste electorale de consultation 2025</h3>
             @if ($message = Session::get('error'))
                 <div class="alert alert-danger">
                     <p>{{ $message }}</p>
