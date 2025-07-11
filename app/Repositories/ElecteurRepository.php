@@ -49,4 +49,18 @@ class ElecteurRepository extends RessourceRepository{
 
     }
 
+    public function truncateTable()
+    {
+        return DB::table('electeurs')->truncate();
+    }
+    public function truncateChangement()
+    {
+        return DB::table('changements')->truncate();
+    }
+    public function truncateInscription()
+    {
+        return DB::table('inscriptions')->truncate();
+    }
+  
+
 }

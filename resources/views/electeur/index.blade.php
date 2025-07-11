@@ -49,7 +49,7 @@
                         <div class="col-md-2">
                            {{--  --}}
 
-                            <a class="btn btn-danger" href="#" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider </button></a>
+                            <a class="btn btn-danger" href="{{ route('vider.electeur') }}" onclick="if(!confirm('Êtes-vous sûr de vouloir vider la table ?')) { return false; }"><i class="fa fa-trash"></i> Vider </button></a>
 
                         </div>
                         <div class="col-md-4">
@@ -115,7 +115,7 @@
                 <div class="modal fade" id="exampleModalform2" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <form action="{{ route('importer.electeur') }}" method="POST" enctype="multipart/form-data">
+                            <form action="{{ route('importer.electeur') }}" method="POST" enctype="multipart/form-data" id="form">
                                 @csrf
                             <div class="modal-header">
                                 <h5 class="modal-title">Importer Nouveaux Electeurs</h5>
@@ -135,7 +135,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                                <button type="submit" class="btn btn-primary">Valider</button>
+                                <button type="submit" id="btn" class="btn btn-primary">Valider</button>
                             </div>
                             </form>
                         </div>
@@ -172,4 +172,25 @@
                         </div>
                     </div>
                 </div>
+@endsection
+@section("script")
+
+<script type="text/javascript">
+   
+
+        document.getElementById('btn').addEventListener('click', function(event) {
+
+            var form = document.getElementById('form'); // Remplacez 'votreFormulaire' par l'ID de votre formulaire
+            if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+            } else {
+                this.setAttribute('disabled', 'disabled');
+                this.innerText = 'Enregistrement en cours...';
+                form.submit();
+            }
+            form.classList.add('was-validated');
+        });
+    </script>
+
 @endsection

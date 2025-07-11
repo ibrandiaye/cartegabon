@@ -139,7 +139,7 @@
         <div class="col-md-3 register-left">
             <img src="{{ asset('img/2.webp') }}" alt="" />
             <h3>Republique Gabonaise</h3>
-            <p>MINISTÈRE DE L’INTÉRIEUR ET DE LA SECURITE</p>
+            <p>Ministère de l’Intérieur, de la Sécurité et de la Décentralisation</p>
         </div>
         <div class="col-md-9 register-right">
 

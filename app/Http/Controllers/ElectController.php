@@ -11,6 +11,7 @@ use App\Repositories\ElectRepository;
 use App\Repositories\ProvinceRepository;
 use App\Repositories\SiegeRepository;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Facades\Excel;
 use Spatie\SimpleExcel\SimpleExcelReader;
 
@@ -342,5 +343,15 @@ class ElectController extends Controller
     {
         $nb = $this->electRepository->countByCentrevote($centrevote);
         return response()->json($nb);
+    }
+
+    public function vider()
+    {
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        $this->electRepository->truncateTable();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+
+        return redirect()->back()->with('success', 'Table electeursavec succès.');
+
     }
 }

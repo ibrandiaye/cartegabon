@@ -12,6 +12,7 @@ use App\Repositories\ElecteurRepository;
 use App\Repositories\ProvinceRepository;
 use App\Repositories\SiegeRepository;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Spatie\SimpleExcel\SimpleExcelReader;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -237,5 +238,16 @@ class ElecteurController extends Controller
          return redirect()->back()->with('success', 'Données importées avec succès.');
     }
 
+    public function vider()
+    {
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        $this->electeurRepository->truncateInscription();
+        $this->electeurRepository->truncateChangement();
+        $this->electeurRepository->truncateTable();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+
+        return redirect()->back()->with('success', 'Table electeursavec succès.');
+
+    }
 
 }
