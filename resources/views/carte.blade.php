@@ -143,7 +143,7 @@
         </div>
         <div class="col-md-9 register-right">
 
-            <h3 class="register-heading">Liste électorale provisoire élections législatives et locales 2025</h3>
+            <h3 class="register-heading">Liste électorale définitive Élections Législatives et Locales 2025</h3>
             @if ($message = Session::get('error'))
                 <div class="alert alert-danger">
                     <p>{{ $message }}</p>
@@ -177,7 +177,7 @@
                         <br>
                         @if(!empty($electeur))
                         <div class="alert alert-success">
-                            Consultation liste électorale provisoire élections législatives et locales 2025: résultat de votre recherche
+                            Consultation lListe électorale définitive Élections Législatives et Locales 2025: résultat de votre recherche
                         </div>
                         @endif
                          @if(!empty($erreur))
